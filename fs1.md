@@ -1,0 +1,55 @@
+```
+└── 📁copilot-custom
+    └── 📁.github
+        └── 📁workflows
+            ├── init-environment.yml
+        ├── copilot-instructions.md
+    └── 📁blueprints
+        └── 📁benchmarks
+        └── 📁manifests
+        ├── guix_builder.py
+    └── 📁cognitive-cities
+        ├── __init__.py
+        ├── build_system.py
+        ├── demo_living_architecture.py
+        ├── ecosystem.py
+        ├── neural_transport.py
+    └── 📁docs
+    └── 📁enterprise
+        └── 📁copilot-org
+            └── 📁departments
+                └── 📁ml-dept
+                    ├── specialization.py
+                └── 📁protocol-dept
+                └── 📁style-dept
+        └── 📁departments
+    └── 📁models
+    └── 📁protocols
+        └── 📁lsp
+            ├── server.py
+        └── 📁mcp
+            ├── server.py
+    └── 📁specs
+        └── 📁grammars
+            ├── copilot_lsp.g4
+        └── 📁protocols
+            ├── custom_mcp.json
+    └── 📁study
+        └── 📁kc
+        └── 📁ml
+            ├── framework.py
+        └── 📁nn
+        └── 📁protocols
+    └── 📁workbench
+        ├── introspective_protocols.py
+    ├── aphrodite.zip
+    ├── ARCHITECTURE.md
+    ├── config.yaml
+    ├── copilot-custom.zip
+    ├── demo_enterprise_architecture.py
+    ├── I'll explore the modproc directory to se.md
+    ├── package.json
+    ├── README.md
+    ├── requirements.txt
+    └── setup.sh
+```

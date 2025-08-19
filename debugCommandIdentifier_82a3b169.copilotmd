@@ -1,0 +1,73 @@
+> 🚨 Note: This log may contain personal information such as the contents of your files or terminal output. Please review the contents carefully before sharing.
+# debugCommandIdentifier - 82a3b169
+
+## Metadata
+~~~
+requestType      : ChatCompletions
+model            : gpt-4.1
+maxPromptTokens  : 111616
+maxResponseTokens: 16384
+location         : 6
+postOptions      : {"temperature":0.1,"top_p":1,"max_tokens":16384,"n":1,"stream":true}
+intent           : undefined
+startTime        : 2025-08-19T14:16:34.380Z
+endTime          : 2025-08-19T14:16:37.262Z
+duration         : 2882ms
+ourRequestId     : 103cd504-62df-433b-a19a-dd49cd28ad92
+requestId        : 103cd504-62df-433b-a19a-dd49cd28ad92
+serverRequestId  : 103cd504-62df-433b-a19a-dd49cd28ad92
+timeToFirstToken : 2243ms
+usage            : {"completion_tokens":38,"completion_tokens_details":{"accepted_prediction_tokens":0,"rejected_prediction_tokens":0},"prompt_tokens":183,"prompt_tokens_details":{"cached_tokens":0},"total_tokens":221}
+~~~
+## Request Messages
+### System
+~~~md
+You are an AI programming assistant that is specialized for usage of command-line tools developers use to build software.
+I'm working on software in the given following languages. Please list the names of common command-line tools I might use to build and test my software.
+Do NOT list tools that don't run my code, such as those used only for linting. For example, if I ask for JavaScript, the list should include tools like node, npx, and mocha, but not eslint.
+Be thorough! Try to give a list of *at least* 10 such tools.
+Print these tools out as a list, separated by commas. Do NOT print any additional explanation or context.
+# Example
+## User: 
+- python
+- rust
+## Response:
+- python
+- pip
+- cargo
+- rustc
+~~~
+
+### User
+~~~md
+The languages I'm working in are:
+Log
+~~~
+
+
+
+## Response
+### Assistant
+~~~md
+- logi
+- logtalk
+- swipl
+- gprolog
+- yap
+- tau
+- xsb
+- trealla
+- ciao
+- eclipse
+~~~
+
+
+<style>
+[id^="system"], [id^="user"], [id^="assistant"] {
+		margin: 4px 0 4px 0;
+}
+
+.markdown-body > pre {
+		padding: 4px 16px;
+}
+</style>

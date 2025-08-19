@@ -1,0 +1,218 @@
+.
+├── bin -> usr/bin
+├── bin.usr-is-merged
+├── boot
+├── dev
+│   ├── bsg
+│   ├── dma_heap
+│   ├── dri
+│   ├── fd -> /proc/self/fd
+│   ├── input
+│   ├── mapper
+│   ├── mqueue
+│   ├── net
+│   ├── pts
+│   ├── shm
+│   ├── vfio
+│   └── vmbus
+├── etc
+│   ├── ODBCDataSources
+│   ├── PackageKit
+│   ├── X11
+│   ├── alternatives
+│   ├── apache2
+│   ├── apparmor.d
+│   ├── apt
+│   ├── bash_completion.d
+│   ├── binfmt.d
+│   ├── ca-certificates
+│   ├── cloud
+│   ├── credstore
+│   ├── credstore.encrypted
+│   ├── cron.d
+│   ├── cron.daily
+│   ├── cron.weekly
+│   ├── dbus-1
+│   ├── debuginfod
+│   ├── default
+│   ├── docker
+│   ├── dpkg
+│   ├── emacs
+│   ├── fish
+│   ├── fonts
+│   ├── gdb
+│   ├── gnutls
+│   ├── groff
+│   ├── gss
+│   ├── init.d
+│   ├── iproute2
+│   ├── kernel
+│   ├── ld.so.conf.d
+│   ├── libnl-3
+│   ├── lighttpd
+│   ├── logcheck
+│   ├── logrotate.d
+│   ├── lynx
+│   ├── modules-load.d
+│   ├── mysql
+│   ├── opt
+│   ├── pam.d
+│   ├── perl
+│   ├── polkit-1
+│   ├── profile.d
+│   ├── python3
+│   ├── python3.12
+│   ├── rc0.d
+│   ├── rc1.d
+│   ├── rc2.d
+│   ├── rc3.d
+│   ├── rc4.d
+│   ├── rc5.d
+│   ├── rc6.d
+│   ├── rcS.d
+│   ├── security
+│   ├── selinux
+│   ├── sgml
+│   ├── skel
+│   ├── ssh
+│   ├── ssl
+│   ├── sudoers.d
+│   ├── sysctl.d
+│   ├── systemd
+│   ├── terminfo
+│   ├── tmpfiles.d
+│   ├── ufw
+│   ├── update-motd.d
+│   ├── vim
+│   ├── xdg
+│   ├── xml
+│   └── zsh
+├── go
+│   └── bin
+├── home
+│   ├── codespace
+│   └── vscode
+├── lib -> usr/lib
+├── lib.usr-is-merged
+├── lib32 -> usr/lib32
+├── lib64 -> usr/lib64
+├── media
+├── mnt
+├── opt
+│   ├── conda
+│   ├── containerd
+│   ├── dotnet
+│   ├── oryx
+│   ├── python -> /usr/local/python
+│   └── tmp
+├── proc
+│   ├── 1
+│   ├── 1099
+│   ├── 1185
+│   ├── 1191
+│   ├── 1315
+│   ├── 1479
+│   ├── 1486
+│   ├── 1493
+│   ├── 1559
+│   ├── 1570
+│   ├── 1578
+│   ├── 15889
+│   ├── 1968
+│   ├── 2373
+│   ├── 2384
+│   ├── 2447
+│   ├── 35
+│   ├── 37361
+│   ├── 37363
+│   ├── 3822
+│   ├── 462
+│   ├── 501
+│   ├── 58
+│   ├── 636
+│   ├── 645
+│   ├── 685
+│   ├── 7
+│   ├── 700
+│   ├── 74
+│   ├── acpi
+│   ├── bus
+│   ├── driver
+│   ├── dynamic_debug
+│   ├── fs
+│   ├── irq
+│   ├── net -> self/net
+│   ├── pressure
+│   ├── scsi
+│   ├── self -> 37363
+│   ├── sys
+│   ├── sysvipc
+│   ├── thread-self -> 37363/task/37363
+│   └── tty
+├── root  [error opening dir]
+├── run
+│   ├── containerd
+│   ├── dbus
+│   ├── docker
+│   ├── lock
+│   ├── log
+│   ├── mount
+│   ├── sendsigs.omit.d
+│   ├── setrans
+│   ├── shm -> /dev/shm
+│   ├── sshd
+│   ├── sudo
+│   ├── systemd
+│   └── user
+├── sbin -> usr/sbin
+├── sbin.usr-is-merged
+├── srv
+├── sys
+│   ├── block
+│   ├── bus
+│   ├── class
+│   ├── dev
+│   ├── devices
+│   ├── firmware
+│   ├── fs
+│   ├── kernel
+│   ├── module
+│   └── power
+├── tmp
+│   ├── codespaces_logs
+│   ├── pyright-1479-0la0v3cSTrHG
+│   └── python-languageserver-cancellation
+├── usr
+│   ├── bin
+│   ├── games
+│   ├── include
+│   ├── lib
+│   ├── lib32
+│   ├── lib64
+│   ├── libexec
+│   ├── local
+│   ├── sbin
+│   ├── share
+│   └── src
+├── var
+│   ├── backups
+│   ├── cache
+│   ├── lib
+│   ├── local
+│   ├── lock -> /run/lock
+│   ├── log
+│   ├── mail
+│   ├── opt
+│   ├── run -> /run
+│   ├── spool
+│   ├── tmp
+│   └── vscode-remote
+├── vscode
+│   ├── bin
+│   ├── extensionsCache
+│   └── serverCache
+└── workspaces
+    ├── aphroditecho
+    └── my-aphrodite-dev
+
+216 directories

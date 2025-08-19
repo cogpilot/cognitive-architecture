@@ -1,0 +1,1300 @@
+.
+├── bin -> usr/bin
+├── bin.usr-is-merged
+├── boot
+├── dev
+│   ├── bsg
+│   ├── dma_heap
+│   ├── dri
+│   ├── fd -> /proc/self/fd
+│   ├── input
+│   ├── mapper
+│   ├── mqueue
+│   ├── net
+│   ├── pts
+│   ├── shm
+│   ├── vfio
+│   └── vmbus
+├── etc
+│   ├── ODBCDataSources
+│   ├── PackageKit
+│   ├── X11
+│   │   ├── Xreset.d
+│   │   ├── Xresources
+│   │   ├── Xsession.d
+│   │   └── xorg.conf.d
+│   ├── alternatives
+│   │   └── python3 -> /usr/local/python/3.12.1
+│   ├── apache2
+│   │   └── conf-available
+│   ├── apparmor.d
+│   │   └── local
+│   ├── apt
+│   │   ├── apt.conf.d
+│   │   ├── auth.conf.d
+│   │   ├── keyrings
+│   │   ├── preferences.d
+│   │   ├── sources.list.d
+│   │   └── trusted.gpg.d
+│   ├── bash_completion.d
+│   ├── binfmt.d
+│   ├── ca-certificates
+│   │   └── update.d
+│   ├── cloud
+│   ├── credstore  [error opening dir]
+│   ├── credstore.encrypted  [error opening dir]
+│   ├── cron.d
+│   ├── cron.daily
+│   ├── cron.weekly
+│   ├── dbus-1
+│   │   ├── session.d
+│   │   └── system.d
+│   ├── debuginfod
+│   ├── default
+│   ├── docker
+│   ├── dpkg
+│   │   ├── dpkg.cfg.d
+│   │   └── origins
+│   ├── emacs
+│   │   └── site-start.d
+│   ├── fish
+│   │   ├── completions
+│   │   ├── conf.d
+│   │   └── functions
+│   ├── fonts
+│   │   ├── conf.avail
+│   │   └── conf.d
+│   ├── gdb
+│   │   └── gdbinit.d
+│   ├── gnutls
+│   ├── groff
+│   ├── gss
+│   │   └── mech.d
+│   ├── init.d
+│   ├── iproute2
+│   │   ├── rt_protos.d
+│   │   └── rt_tables.d
+│   ├── kernel
+│   │   ├── install.d
+│   │   └── postinst.d
+│   ├── ld.so.conf.d
+│   ├── libnl-3
+│   ├── lighttpd
+│   │   ├── conf-available
+│   │   └── conf-enabled
+│   ├── logcheck
+│   │   └── ignore.d.server
+│   ├── logrotate.d
+│   ├── lynx
+│   ├── modules-load.d
+│   ├── mysql
+│   │   └── conf.d
+│   ├── opt
+│   ├── pam.d
+│   ├── perl
+│   │   └── Net
+│   ├── polkit-1
+│   │   └── rules.d
+│   ├── profile.d
+│   ├── python3
+│   ├── python3.12
+│   ├── rc0.d
+│   ├── rc1.d
+│   ├── rc2.d
+│   ├── rc3.d
+│   ├── rc4.d
+│   ├── rc5.d
+│   ├── rc6.d
+│   ├── rcS.d
+│   ├── security
+│   │   ├── limits.d
+│   │   └── namespace.d
+│   ├── selinux
+│   ├── sgml
+│   ├── skel
+│   ├── ssh
+│   │   ├── ssh_config.d
+│   │   └── sshd_config.d
+│   ├── ssl
+│   │   ├── certs
+│   │   └── private
+│   ├── sudoers.d
+│   ├── sysctl.d
+│   ├── systemd
+│   │   ├── network
+│   │   ├── system
+│   │   ├── system-generators
+│   │   └── user
+│   ├── terminfo
+│   ├── tmpfiles.d
+│   ├── ufw
+│   │   └── applications.d
+│   ├── update-motd.d
+│   ├── vim
+│   ├── xdg
+│   │   └── systemd
+│   ├── xml
+│   └── zsh
+├── go
+│   └── bin
+├── home
+│   ├── codespace
+│   │   ├── java -> /usr/local/sdkman/candidates/java
+│   │   └── nvm -> /usr/local/share/nvm
+│   └── vscode
+├── lib -> usr/lib
+├── lib.usr-is-merged
+├── lib32 -> usr/lib32
+├── lib64 -> usr/lib64
+├── media
+├── mnt
+├── opt
+│   ├── conda
+│   │   ├── bin
+│   │   ├── cmake
+│   │   ├── compiler_compat
+│   │   ├── conda-meta
+│   │   ├── condabin
+│   │   ├── etc
+│   │   ├── include
+│   │   ├── lib
+│   │   ├── man
+│   │   ├── pkgs
+│   │   ├── sbin
+│   │   ├── share
+│   │   ├── shell
+│   │   ├── ssl
+│   │   ├── x86_64-conda-linux-gnu
+│   │   └── x86_64-conda_cos7-linux-gnu
+│   ├── containerd  [error opening dir]
+│   ├── dotnet
+│   │   └── lts
+│   ├── oryx
+│   ├── python -> /usr/local/python
+│   └── tmp
+│       ├── build
+│       └── images
+├── proc
+│   ├── 1
+│   │   ├── attr
+│   │   ├── cwd -> /
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1099
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1185
+│   │   ├── attr
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1191
+│   │   ├── attr
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1315
+│   │   ├── attr
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1479
+│   │   ├── attr
+│   │   ├── cwd -> /home/codespace/.vscode-remote/extensions/ms-python.vscode-pylance-2025.7.1/dist
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1486
+│   │   ├── attr
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1493
+│   │   ├── attr
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1559
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1570
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1578
+│   │   ├── attr
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 15889
+│   │   ├── attr
+│   │   ├── cwd -> /
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 1968
+│   │   ├── attr
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 2373
+│   │   ├── attr
+│   │   ├── cwd -> /
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 2384
+│   │   ├── attr
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 2447
+│   │   ├── attr
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   └── task
+│   ├── 35
+│   │   ├── attr
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   └── task
+│   ├── 3822
+│   │   ├── attr
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 40625
+│   │   ├── attr
+│   │   ├── cwd -> /
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 40630
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 40631
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 40634
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 40636
+│   │   ├── attr
+│   │   ├── cwd -> /
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 462
+│   │   ├── attr
+│   │   ├── cwd -> /
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 501
+│   │   ├── attr
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   └── task
+│   ├── 58
+│   │   ├── attr
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   └── task
+│   ├── 636
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 645
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 685
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 7
+│   │   ├── attr
+│   │   ├── cwd -> /
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 700
+│   │   ├── attr
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── root -> /
+│   │   └── task
+│   ├── 74
+│   │   ├── attr
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── map_files
+│   │   ├── net
+│   │   ├── ns
+│   │   └── task
+│   ├── acpi
+│   ├── bus
+│   │   ├── input
+│   │   └── pci
+│   ├── driver
+│   ├── dynamic_debug
+│   ├── fs
+│   │   ├── cifs
+│   │   ├── ext4
+│   │   ├── fscache -> netfs
+│   │   ├── jbd2
+│   │   ├── netfs
+│   │   └── nfsd
+│   ├── irq
+│   │   ├── 0
+│   │   ├── 1
+│   │   ├── 10
+│   │   ├── 11
+│   │   ├── 12
+│   │   ├── 13
+│   │   ├── 14
+│   │   ├── 15
+│   │   ├── 2
+│   │   ├── 3
+│   │   ├── 4
+│   │   ├── 5
+│   │   ├── 6
+│   │   ├── 7
+│   │   ├── 8
+│   │   └── 9
+│   ├── net -> self/net
+│   ├── pressure
+│   ├── scsi
+│   │   └── sg
+│   ├── self -> 40636
+│   ├── sys
+│   │   ├── abi
+│   │   ├── debug
+│   │   ├── dev
+│   │   ├── fs
+│   │   ├── kernel
+│   │   ├── net
+│   │   ├── user
+│   │   └── vm
+│   ├── sysvipc
+│   ├── thread-self -> 40636/task/40636
+│   └── tty
+│       ├── driver
+│       └── ldisc
+├── root  [error opening dir]
+├── run
+│   ├── containerd  [error opening dir]
+│   ├── dbus
+│   │   └── containers
+│   ├── docker  [error opening dir]
+│   ├── lock
+│   │   └── subsys
+│   ├── log
+│   ├── mount
+│   ├── sendsigs.omit.d
+│   ├── setrans
+│   ├── shm -> /dev/shm
+│   ├── sshd
+│   ├── sudo  [error opening dir]
+│   ├── systemd
+│   │   ├── ask-password
+│   │   ├── machines
+│   │   ├── netif
+│   │   ├── seats
+│   │   ├── sessions
+│   │   ├── shutdown
+│   │   └── users
+│   └── user
+├── sbin -> usr/sbin
+├── sbin.usr-is-merged
+├── srv
+├── sys
+│   ├── block
+│   │   ├── loop0 -> ../devices/virtual/block/loop0
+│   │   ├── loop1 -> ../devices/virtual/block/loop1
+│   │   ├── loop2 -> ../devices/virtual/block/loop2
+│   │   ├── loop3 -> ../devices/virtual/block/loop3
+│   │   ├── loop4 -> ../devices/virtual/block/loop4
+│   │   ├── loop5 -> ../devices/virtual/block/loop5
+│   │   ├── loop6 -> ../devices/virtual/block/loop6
+│   │   ├── loop7 -> ../devices/virtual/block/loop7
+│   │   ├── sda -> ../devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/00000000-0000-8899-0000-000000000000/host0/target0:0:0/0:0:0:0/block/sda
+│   │   ├── sdb -> ../devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/00000000-0001-8899-0000-000000000000/host1/target1:0:1/1:0:1:0/block/sdb
+│   │   ├── sdc -> ../devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/f8b3781b-1e82-4818-a1c3-63d806ec15bb/host3/target3:0:0/3:0:0:0/block/sdc
+│   │   └── sr0 -> ../devices/pci0000:00/0000:00:07.1/ata2/host5/target5:0:0/5:0:0:0/block/sr0
+│   ├── bus
+│   │   ├── acpi
+│   │   ├── auxiliary
+│   │   ├── clockevents
+│   │   ├── clocksource
+│   │   ├── container
+│   │   ├── cpu
+│   │   ├── dax
+│   │   ├── edac
+│   │   ├── eisa
+│   │   ├── event_source
+│   │   ├── gpio
+│   │   ├── hid
+│   │   ├── i2c
+│   │   ├── isa
+│   │   ├── machinecheck
+│   │   ├── mdio_bus
+│   │   ├── memory
+│   │   ├── memory_tiering
+│   │   ├── mipi-dsi
+│   │   ├── nd
+│   │   ├── node
+│   │   ├── nvmem
+│   │   ├── pci
+│   │   ├── pci-epf
+│   │   ├── pci_express
+│   │   ├── platform
+│   │   ├── pnp
+│   │   ├── rapidio
+│   │   ├── scsi
+│   │   ├── serial-base
+│   │   ├── serio
+│   │   ├── soc
+│   │   ├── spi
+│   │   ├── usb
+│   │   ├── virtio
+│   │   ├── vmbus
+│   │   ├── vme
+│   │   └── workqueue
+│   ├── class
+│   │   ├── accel
+│   │   ├── ata_device
+│   │   ├── ata_link
+│   │   ├── ata_port
+│   │   ├── backlight
+│   │   ├── bdi
+│   │   ├── block
+│   │   ├── bsg
+│   │   ├── devcoredump
+│   │   ├── devfreq
+│   │   ├── devfreq-event
+│   │   ├── devlink
+│   │   ├── dma
+│   │   ├── dma_heap
+│   │   ├── dmi
+│   │   ├── drm
+│   │   ├── extcon
+│   │   ├── fc_host
+│   │   ├── fc_remote_ports
+│   │   ├── fc_transport
+│   │   ├── fc_vports
+│   │   ├── firmware
+│   │   ├── gpio
+│   │   ├── graphics
+│   │   ├── hidraw
+│   │   ├── hwmon
+│   │   ├── i2c-adapter
+│   │   ├── input
+│   │   ├── intel_scu_ipc
+│   │   ├── iommu
+│   │   ├── mdio_bus
+│   │   ├── mem
+│   │   ├── misc
+│   │   ├── nd
+│   │   ├── net
+│   │   ├── nvme
+│   │   ├── nvme-fabrics
+│   │   ├── nvme-generic
+│   │   ├── nvme-subsystem
+│   │   ├── pci_bus
+│   │   ├── pci_epc
+│   │   ├── phy
+│   │   ├── power_supply
+│   │   ├── powercap
+│   │   ├── ppp
+│   │   ├── pps
+│   │   ├── ptp
+│   │   ├── pwm
+│   │   ├── rapidio_port
+│   │   ├── regulator
+│   │   ├── rfkill
+│   │   ├── rtc
+│   │   ├── scsi_device
+│   │   ├── scsi_disk
+│   │   ├── scsi_generic
+│   │   ├── scsi_host
+│   │   ├── spi_master
+│   │   ├── spi_slave
+│   │   ├── thermal
+│   │   ├── tpm
+│   │   ├── tpmrm
+│   │   ├── tty
+│   │   ├── usbmisc
+│   │   ├── vc
+│   │   ├── virtio-ports
+│   │   ├── vtconsole
+│   │   ├── wakeup
+│   │   └── watchdog
+│   ├── dev
+│   │   ├── block
+│   │   └── char
+│   ├── devices
+│   │   ├── 0006:045E:0621.0001
+│   │   ├── LNXSYSTM:00
+│   │   ├── breakpoint
+│   │   ├── isa
+│   │   ├── kprobe
+│   │   ├── msr
+│   │   ├── pci0000:00
+│   │   ├── platform
+│   │   ├── pnp0
+│   │   ├── software
+│   │   ├── system
+│   │   ├── tracepoint
+│   │   ├── uprobe
+│   │   └── virtual
+│   ├── firmware
+│   │   ├── acpi
+│   │   ├── dmi
+│   │   └── memmap
+│   ├── fs
+│   │   ├── bpf
+│   │   ├── cgroup
+│   │   ├── ecryptfs
+│   │   ├── ext4
+│   │   ├── fuse
+│   │   └── pstore
+│   ├── kernel
+│   │   ├── boot_params
+│   │   ├── btf
+│   │   ├── cgroup
+│   │   ├── config
+│   │   ├── debug
+│   │   ├── iommu_groups
+│   │   ├── irq
+│   │   ├── livepatch
+│   │   ├── mm
+│   │   ├── reboot
+│   │   ├── security
+│   │   ├── slab
+│   │   ├── software_nodes
+│   │   └── tracing
+│   ├── module
+│   │   ├── 8250
+│   │   ├── acpi
+│   │   ├── acpi_cpufreq
+│   │   ├── acpiphp
+│   │   ├── aesni_intel
+│   │   ├── apparmor
+│   │   ├── ata_generic
+│   │   ├── ata_piix
+│   │   ├── autofs4
+│   │   ├── binfmt_misc
+│   │   ├── blk_cgroup
+│   │   ├── blk_crypto
+│   │   ├── block
+│   │   ├── br_netfilter
+│   │   ├── bridge
+│   │   ├── button
+│   │   ├── ccp
+│   │   ├── cifs
+│   │   ├── cifs_arc4
+│   │   ├── cifs_md4
+│   │   ├── clocksource
+│   │   ├── configfs
+│   │   ├── cpufreq
+│   │   ├── cpuidle
+│   │   ├── crc32_pclmul
+│   │   ├── crc64_rocksoft
+│   │   ├── crc_itu_t
+│   │   ├── crc_t10dif
+│   │   ├── crct10dif_pclmul
+│   │   ├── cryptd
+│   │   ├── crypto_simd
+│   │   ├── cryptomgr
+│   │   ├── debug_core
+│   │   ├── device_hmem
+│   │   ├── dm_bufio
+│   │   ├── dm_mod
+│   │   ├── dm_multipath
+│   │   ├── dm_snapshot
+│   │   ├── dns_resolver
+│   │   ├── drm
+│   │   ├── drm_kms_helper
+│   │   ├── dynamic_debug
+│   │   ├── edac_core
+│   │   ├── edd
+│   │   ├── efi_pstore
+│   │   ├── eisa_bus
+│   │   ├── fb
+│   │   ├── firmware_class
+│   │   ├── fscrypto
+│   │   ├── fuse
+│   │   ├── ghash_clmulni_intel
+│   │   ├── gpiolib_acpi
+│   │   ├── haltpoll
+│   │   ├── hid
+│   │   ├── hid_generic
+│   │   ├── hid_hyperv
+│   │   ├── hv_balloon
+│   │   ├── hv_netvsc
+│   │   ├── hv_storvsc
+│   │   ├── hv_utils
+│   │   ├── hv_vmbus
+│   │   ├── hyperv_drm
+│   │   ├── hyperv_keyboard
+│   │   ├── i8042
+│   │   ├── ima
+│   │   ├── intel_idle
+│   │   ├── ip6_tables
+│   │   ├── ip6table_filter
+│   │   ├── ip6table_nat
+│   │   ├── ip_set
+│   │   ├── ip_tables
+│   │   ├── iptable_filter
+│   │   ├── iptable_nat
+│   │   ├── iptable_security
+│   │   ├── ipv6
+│   │   ├── irqbypass
+│   │   ├── joydev
+│   │   ├── kdb
+│   │   ├── kernel
+│   │   ├── keyboard
+│   │   ├── kfence
+│   │   ├── kgdb_nmi
+│   │   ├── kgdboc
+│   │   ├── kvm
+│   │   ├── kvm_amd
+│   │   ├── libata
+│   │   ├── libcrc32c
+│   │   ├── libnvdimm
+│   │   ├── llc
+│   │   ├── loop
+│   │   ├── md_mod
+│   │   ├── memory_hotplug
+│   │   ├── microcode
+│   │   ├── module
+│   │   ├── mousedev
+│   │   ├── netfs
+│   │   ├── netpoll
+│   │   ├── nf_conntrack
+│   │   ├── nf_conntrack_netlink
+│   │   ├── nf_defrag_ipv4
+│   │   ├── nf_defrag_ipv6
+│   │   ├── nf_nat
+│   │   ├── nfit
+│   │   ├── nfnetlink
+│   │   ├── nls_iso8859_1
+│   │   ├── nls_ucs2_utils
+│   │   ├── nls_utf8
+│   │   ├── nmi_backtrace
+│   │   ├── nvme
+│   │   ├── nvme_core
+│   │   ├── nvme_fabrics
+│   │   ├── overlay
+│   │   ├── page_alloc
+│   │   ├── page_reporting
+│   │   ├── pata_acpi
+│   │   ├── pata_sis
+│   │   ├── pcc_cpufreq
+│   │   ├── pci_hotplug
+│   │   ├── pcie_aspm
+│   │   ├── pciehp
+│   │   ├── polyval_clmulni
+│   │   ├── polyval_generic
+│   │   ├── ppp_generic
+│   │   ├── printk
+│   │   ├── processor
+│   │   ├── pstore
+│   │   ├── random
+│   │   ├── rcupdate
+│   │   ├── rcutree
+│   │   ├── rfkill
+│   │   ├── rng_core
+│   │   ├── rtc_cmos
+│   │   ├── sch_fq_codel
+│   │   ├── scsi_dh_alua
+│   │   ├── scsi_dh_emc
+│   │   ├── scsi_dh_rdac
+│   │   ├── scsi_mod
+│   │   ├── scsi_transport_fc
+│   │   ├── secretmem
+│   │   ├── serio_raw
+│   │   ├── sg
+│   │   ├── sha1_ssse3
+│   │   ├── sha256_ssse3
+│   │   ├── shpchp
+│   │   ├── spurious
+│   │   ├── sr_mod
+│   │   ├── srcutree
+│   │   ├── stp
+│   │   ├── suspend
+│   │   ├── sysrq
+│   │   ├── tcp_cubic
+│   │   ├── tls
+│   │   ├── tpm
+│   │   ├── tpm_crb
+│   │   ├── tpm_tis
+│   │   ├── tpm_tis_core
+│   │   ├── udf
+│   │   ├── udmabuf
+│   │   ├── usbcore
+│   │   ├── uv_nmi
+│   │   ├── virtio_blk
+│   │   ├── virtio_mmio
+│   │   ├── virtio_net
+│   │   ├── virtio_pci
+│   │   ├── virtio_pci_legacy_dev
+│   │   ├── virtio_pci_modern_dev
+│   │   ├── virtio_scsi
+│   │   ├── virtual_root
+│   │   ├── vt
+│   │   ├── vxlan
+│   │   ├── watchdog
+│   │   ├── workqueue
+│   │   ├── x_tables
+│   │   ├── xfrm_algo
+│   │   ├── xfrm_user
+│   │   ├── xhci_hcd
+│   │   ├── xt_MASQUERADE
+│   │   ├── xt_addrtype
+│   │   ├── xt_conntrack
+│   │   ├── xt_owner
+│   │   ├── xt_set
+│   │   ├── xt_tcpudp
+│   │   ├── xz_dec
+│   │   └── zswap
+│   └── power
+│       └── suspend_stats
+├── tmp
+│   ├── codespaces_logs
+│   ├── pyright-1479-0la0v3cSTrHG
+│   └── python-languageserver-cancellation
+│       └── a334c843f30b9446da1a29dd49862dc29a8558579c
+├── usr
+│   ├── bin
+│   │   └── X11 -> .
+│   ├── games
+│   ├── include
+│   │   ├── GL
+│   │   ├── X11
+│   │   ├── arpa
+│   │   ├── asm-generic
+│   │   ├── blkid
+│   │   ├── brotli
+│   │   ├── c++
+│   │   ├── clang
+│   │   ├── drm
+│   │   ├── editline
+│   │   ├── finclude
+│   │   ├── fontconfig
+│   │   ├── freetype2
+│   │   ├── gdb
+│   │   ├── gio-unix-2.0
+│   │   ├── glib-2.0
+│   │   ├── gnutls
+│   │   ├── iproute2
+│   │   ├── libexslt
+│   │   ├── libmount
+│   │   ├── libpng -> libpng16
+│   │   ├── libpng16
+│   │   ├── libsecret-1
+│   │   ├── libxml2
+│   │   ├── libxslt
+│   │   ├── linux
+│   │   ├── llvm-18
+│   │   ├── llvm-c-18
+│   │   ├── lzma
+│   │   ├── misc
+│   │   ├── mtd
+│   │   ├── mysql
+│   │   ├── ncursesw
+│   │   ├── net
+│   │   ├── netash
+│   │   ├── netatalk
+│   │   ├── netax25
+│   │   ├── neteconet
+│   │   ├── netinet
+│   │   ├── netipx
+│   │   ├── netiucv
+│   │   ├── netpacket
+│   │   ├── netrom
+│   │   ├── netrose
+│   │   ├── nettle
+│   │   ├── nfs
+│   │   ├── nspr
+│   │   ├── nss
+│   │   ├── openssl
+│   │   ├── p11-kit-1
+│   │   ├── postgresql
+│   │   ├── protocols
+│   │   ├── python3.12
+│   │   ├── rdma
+│   │   ├── readline
+│   │   ├── regulator
+│   │   ├── rpc
+│   │   ├── rpcsvc
+│   │   ├── scsi
+│   │   ├── selinux
+│   │   ├── sepol
+│   │   ├── sodium
+│   │   ├── sound
+│   │   ├── tcl -> tcl8.6
+│   │   ├── tcl8.6
+│   │   ├── tk -> tcl8.6
+│   │   ├── unicode
+│   │   ├── uuid
+│   │   ├── valgrind
+│   │   ├── video
+│   │   ├── x86_64-linux-gnu
+│   │   ├── xcb
+│   │   ├── xen
+│   │   └── xmlsec1
+│   ├── lib
+│   │   ├── X11
+│   │   ├── apt
+│   │   ├── bfd-plugins
+│   │   ├── binfmt.d
+│   │   ├── clang
+│   │   ├── cmake
+│   │   ├── compat-ld
+│   │   ├── dbus-1.0
+│   │   ├── debug
+│   │   ├── dpkg
+│   │   ├── environment.d
+│   │   ├── file
+│   │   ├── gcc
+│   │   ├── girepository-1.0
+│   │   ├── git-core
+│   │   ├── gnupg
+│   │   ├── gnupg2
+│   │   ├── gold-ld
+│   │   ├── groff
+│   │   ├── init
+│   │   ├── kernel
+│   │   ├── llvm-18
+│   │   ├── locale
+│   │   ├── lsb
+│   │   ├── man-db
+│   │   ├── mime
+│   │   ├── modprobe.d
+│   │   ├── openssh
+│   │   ├── pam.d
+│   │   ├── pcrlock.d
+│   │   ├── pkgconfig
+│   │   ├── policykit-1
+│   │   ├── polkit-1
+│   │   ├── python3
+│   │   ├── python3.12
+│   │   ├── sasl2
+│   │   ├── software-properties
+│   │   ├── ssl
+│   │   ├── sysctl.d
+│   │   ├── systemd
+│   │   ├── sysusers.d
+│   │   ├── tcl8.6
+│   │   ├── tcltk
+│   │   ├── tk8.6
+│   │   ├── tmpfiles.d
+│   │   ├── udev
+│   │   ├── valgrind
+│   │   └── x86_64-linux-gnu
+│   ├── lib32
+│   │   └── gconv
+│   ├── lib64
+│   ├── libexec
+│   │   ├── coreutils
+│   │   ├── docker
+│   │   ├── dpkg
+│   │   ├── gcc
+│   │   ├── man-db
+│   │   ├── sudo
+│   │   └── valgrind
+│   ├── local
+│   │   ├── bin
+│   │   ├── buildscriptgen
+│   │   ├── etc
+│   │   ├── games
+│   │   ├── go
+│   │   ├── hugo
+│   │   ├── include
+│   │   ├── jupyter -> /home/codespace/.local/bin
+│   │   ├── lib
+│   │   ├── libexec
+│   │   ├── man -> share/man
+│   │   ├── nvs
+│   │   ├── oryx
+│   │   ├── php
+│   │   ├── py-utils
+│   │   ├── python
+│   │   ├── rvm
+│   │   ├── sbin
+│   │   ├── sdkman
+│   │   ├── share
+│   │   └── src
+│   ├── sbin
+│   ├── share
+│   │   ├── PackageKit
+│   │   ├── X11
+│   │   ├── aclocal
+│   │   ├── aclocal-1.16
+│   │   ├── applications
+│   │   ├── apport
+│   │   ├── autoconf
+│   │   ├── automake-1.16
+│   │   ├── awk
+│   │   ├── base-files
+│   │   ├── base-passwd
+│   │   ├── bash-completion
+│   │   ├── binfmts
+│   │   ├── bison
+│   │   ├── bug
+│   │   ├── build-essential
+│   │   ├── ca-certificates
+│   │   ├── cmake
+│   │   ├── cmake-3.28
+│   │   ├── common-licenses
+│   │   ├── dbus-1
+│   │   ├── debconf
+│   │   ├── debhelper
+│   │   ├── debianutils
+│   │   ├── dict
+│   │   ├── distro-info
+│   │   ├── doc
+│   │   ├── doc-base
+│   │   ├── dotnet
+│   │   ├── dpkg
+│   │   ├── emacs
+│   │   ├── file
+│   │   ├── fish
+│   │   ├── fontconfig
+│   │   ├── fonts
+│   │   ├── gcc
+│   │   ├── gdb
+│   │   ├── gettext
+│   │   ├── gettext-0.21
+│   │   ├── gir-1.0
+│   │   ├── git-core
+│   │   ├── gitweb
+│   │   ├── glib-2.0
+│   │   ├── gnupg
+│   │   ├── groff
+│   │   ├── i18n
+│   │   ├── icons
+│   │   ├── icu
+│   │   ├── info
+│   │   ├── iptables
+│   │   ├── iso-codes
+│   │   ├── java
+│   │   ├── javascript
+│   │   ├── keyrings
+│   │   ├── libc-bin
+│   │   ├── libdebuginfod-common
+│   │   ├── libgcrypt20
+│   │   ├── libthai
+│   │   ├── libtool
+│   │   ├── lintian
+│   │   ├── locale
+│   │   ├── locales
+│   │   ├── lto-disabled-list
+│   │   ├── man
+│   │   ├── man-db
+│   │   ├── maven-repo
+│   │   ├── menu
+│   │   ├── metainfo
+│   │   ├── misc
+│   │   ├── moby-engine
+│   │   ├── mysql-common
+│   │   ├── nano
+│   │   ├── openssh
+│   │   ├── pam
+│   │   ├── pam-configs
+│   │   ├── perl
+│   │   ├── perl5
+│   │   ├── pixmaps
+│   │   ├── pkgconfig
+│   │   ├── polkit-1
+│   │   ├── python-apt
+│   │   ├── python3
+│   │   ├── re2c
+│   │   ├── readline
+│   │   ├── rsync
+│   │   ├── sensible-utils
+│   │   ├── sgml
+│   │   ├── sgml-base
+│   │   ├── source-highlight
+│   │   ├── swig3.0
+│   │   ├── systemd
+│   │   ├── tabset
+│   │   ├── tcltk
+│   │   ├── terminfo
+│   │   ├── ucf
+│   │   ├── util-linux
+│   │   ├── vala
+│   │   ├── vim
+│   │   ├── xml
+│   │   ├── xml-core
+│   │   ├── yarn
+│   │   ├── zoneinfo
+│   │   └── zsh
+│   └── src
+│       └── python3.12
+├── var
+│   ├── backups
+│   ├── cache
+│   │   ├── PackageKit
+│   │   ├── adduser
+│   │   ├── apt
+│   │   ├── debconf
+│   │   ├── fontconfig
+│   │   ├── ldconfig
+│   │   ├── man
+│   │   └── private
+│   ├── lib
+│   │   ├── PackageKit
+│   │   ├── apt
+│   │   ├── dbus
+│   │   ├── docker
+│   │   ├── dpkg
+│   │   ├── git
+│   │   ├── man-db
+│   │   ├── misc
+│   │   ├── pam
+│   │   ├── polkit-1
+│   │   ├── private
+│   │   ├── python
+│   │   ├── sgml-base
+│   │   ├── sudo
+│   │   ├── systemd
+│   │   ├── ucf
+│   │   ├── vim
+│   │   └── xml-core
+│   ├── local
+│   ├── lock -> /run/lock
+│   ├── log
+│   │   ├── apt
+│   │   ├── journal
+│   │   └── private
+│   ├── mail
+│   ├── opt
+│   ├── run -> /run
+│   ├── spool
+│   │   └── mail -> ../mail
+│   ├── tmp
+│   └── vscode-remote
+├── vscode
+│   ├── bin
+│   │   └── linux-x64
+│   ├── extensionsCache
+│   └── serverCache
+│       ├── 09401e712d4ffa5e497787978fe90c1557a0092b
+│       ├── 0ab18bd00955d2a3d69eb66d8eea982b76a53780
+│       ├── 18e3a1ec544e6907be1e944a94c496e302073435
+│       ├── 258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3
+│       ├── 2901c5ac6db8a986a5666c3af51ff804d05af0d4
+│       ├── 308b0746d15cdcfc6ee123c13fa902495edec2d5
+│       ├── 360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│       ├── 3b5110391dffc18e9983d33d6340c5c8e642f3a8
+│       ├── 488a1f239235055e34e673291fb8d8c810886f81
+│       ├── 57235e35e5be1ea9db32da9b57862c9ea1880a7f
+│       ├── 5d24d0fea3ffc65b824989dda916714a46ca97a7
+│       ├── 7adae6a56e34cb64d08899664b814cf620465925
+│       ├── 95db854cd8dd72aeea01ae3ca2b10a3323435c00
+│       ├── 97bc9a439c022a88fba7be68f67e068361f6c467
+│       ├── a61e381bfa71c241738e48f2fc8b01eade94c91d
+│       ├── c306e94f98122556ca081f527b466015e1bc37b0
+│       ├── cb0c47c0cfaad0757385834bd89d410c78a856c0
+│       ├── d3c3cf8f5025d9565eff4aa2545431adebb1aa83
+│       ├── dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1
+│       └── e3550cfac4b63ca4eafca7b601f0d2885817fd1f
+└── workspaces
+    ├── aphroditecho
+    │   ├── CMakeFiles
+    │   ├── aar_core
+    │   ├── aphrodite
+    │   ├── aphrodite-engine
+    │   ├── aphrodite_engine.egg-info
+    │   ├── assets
+    │   ├── build
+    │   ├── cmake
+    │   ├── deep-tree-echo
+    │   ├── docker
+    │   ├── docs
+    │   ├── echo-self
+    │   ├── echo.dash
+    │   ├── echo.dream
+    │   ├── echo.files
+    │   ├── echo.kern
+    │   ├── echo.rkwv
+    │   ├── echo.self
+    │   ├── echo_self
+    │   ├── examples
+    │   ├── kernels
+    │   ├── modproc
+    │   ├── patches
+    │   ├── requirements
+    │   ├── scripts
+    │   ├── tests
+    │   └── tools
+    └── my-aphrodite-dev
+        ├── aphrodite
+        ├── assets
+        ├── cmake
+        ├── docker
+        ├── docs
+        ├── examples
+        ├── kernels
+        ├── patches
+        ├── requirements
+        ├── tests
+        └── tools
+
+1298 directories

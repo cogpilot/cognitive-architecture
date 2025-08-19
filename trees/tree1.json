@@ -1,0 +1,32 @@
+[
+  {"type":"directory","name":".","contents":[
+    {"type":"link","name":"bin","target":"usr/bin"},
+    {"type":"directory","name":"bin.usr-is-merged"},
+    {"type":"directory","name":"boot"},
+    {"type":"directory","name":"dev"},
+    {"type":"directory","name":"etc"},
+    {"type":"directory","name":"go"},
+    {"type":"directory","name":"home"},
+    {"type":"link","name":"lib","target":"usr/lib"},
+    {"type":"directory","name":"lib.usr-is-merged"},
+    {"type":"link","name":"lib32","target":"usr/lib32"},
+    {"type":"link","name":"lib64","target":"usr/lib64"},
+    {"type":"directory","name":"media"},
+    {"type":"directory","name":"mnt"},
+    {"type":"directory","name":"opt"},
+    {"type":"directory","name":"proc"},
+    {"type":"directory","name":"root"},
+    {"type":"directory","name":"run"},
+    {"type":"link","name":"sbin","target":"usr/sbin"},
+    {"type":"directory","name":"sbin.usr-is-merged"},
+    {"type":"directory","name":"srv"},
+    {"type":"directory","name":"sys"},
+    {"type":"directory","name":"tmp"},
+    {"type":"directory","name":"usr"},
+    {"type":"directory","name":"var"},
+    {"type":"directory","name":"vscode"},
+    {"type":"directory","name":"workspaces"}
+  ]}
+,
+  {"type":"report","directories":27}
+]

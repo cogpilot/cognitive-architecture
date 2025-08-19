@@ -1,0 +1,4997 @@
+.
+├── bin -> usr/bin
+├── bin.usr-is-merged
+├── boot
+├── dev
+│   ├── autofs
+│   ├── bsg
+│   │   ├── 0:0:0:0
+│   │   ├── 1:0:1:0
+│   │   ├── 3:0:0:0
+│   │   └── 5:0:0:0
+│   ├── btrfs-control
+│   ├── core -> /proc/kcore
+│   ├── cpu_dma_latency
+│   ├── cuse
+│   ├── dma_heap
+│   │   └── system
+│   ├── dri
+│   │   └── card0
+│   ├── ecryptfs
+│   ├── fb0
+│   ├── fd -> /proc/self/fd
+│   ├── full
+│   ├── fuse
+│   ├── hpet
+│   ├── hwrng
+│   ├── input
+│   │   ├── event0
+│   │   ├── event1
+│   │   ├── event2
+│   │   ├── event3
+│   │   ├── js0
+│   │   ├── mice
+│   │   └── mouse0
+│   ├── kmsg
+│   ├── kvm
+│   ├── loop-control
+│   ├── loop0
+│   ├── loop1
+│   ├── loop2
+│   ├── loop3
+│   ├── loop4
+│   ├── loop5
+│   ├── loop6
+│   ├── loop7
+│   ├── mapper
+│   │   └── control
+│   ├── mcelog
+│   ├── mem
+│   ├── mqueue
+│   ├── net
+│   │   └── tun
+│   ├── null
+│   ├── nvme-fabrics
+│   ├── nvram
+│   ├── port
+│   ├── ppp
+│   ├── psaux
+│   ├── ptmx -> pts/ptmx
+│   ├── ptp0
+│   ├── pts
+│   │   ├── 0
+│   │   ├── 1
+│   │   ├── 2
+│   │   └── ptmx
+│   ├── random
+│   ├── rfkill
+│   ├── root
+│   ├── rtc0
+│   ├── sda
+│   ├── sda1
+│   ├── sda14
+│   ├── sda15
+│   ├── sdb
+│   ├── sdb1
+│   ├── sdc
+│   ├── sdc1
+│   ├── sg0
+│   ├── sg1
+│   ├── sg2
+│   ├── sg3
+│   ├── shm
+│   ├── snapshot
+│   ├── sr0
+│   ├── stderr -> /proc/self/fd/2
+│   ├── stdin -> /proc/self/fd/0
+│   ├── stdout -> /proc/self/fd/1
+│   ├── tty
+│   ├── tty0
+│   ├── tty1
+│   ├── tty10
+│   ├── tty11
+│   ├── tty12
+│   ├── tty13
+│   ├── tty14
+│   ├── tty15
+│   ├── tty16
+│   ├── tty17
+│   ├── tty18
+│   ├── tty19
+│   ├── tty2
+│   ├── tty20
+│   ├── tty21
+│   ├── tty22
+│   ├── tty23
+│   ├── tty24
+│   ├── tty25
+│   ├── tty26
+│   ├── tty27
+│   ├── tty28
+│   ├── tty29
+│   ├── tty3
+│   ├── tty30
+│   ├── tty31
+│   ├── tty32
+│   ├── tty33
+│   ├── tty34
+│   ├── tty35
+│   ├── tty36
+│   ├── tty37
+│   ├── tty38
+│   ├── tty39
+│   ├── tty4
+│   ├── tty40
+│   ├── tty41
+│   ├── tty42
+│   ├── tty43
+│   ├── tty44
+│   ├── tty45
+│   ├── tty46
+│   ├── tty47
+│   ├── tty48
+│   ├── tty49
+│   ├── tty5
+│   ├── tty50
+│   ├── tty51
+│   ├── tty52
+│   ├── tty53
+│   ├── tty54
+│   ├── tty55
+│   ├── tty56
+│   ├── tty57
+│   ├── tty58
+│   ├── tty59
+│   ├── tty6
+│   ├── tty60
+│   ├── tty61
+│   ├── tty62
+│   ├── tty63
+│   ├── tty7
+│   ├── tty8
+│   ├── tty9
+│   ├── ttyS0
+│   ├── ttyS1
+│   ├── ttyS10
+│   ├── ttyS11
+│   ├── ttyS12
+│   ├── ttyS13
+│   ├── ttyS14
+│   ├── ttyS15
+│   ├── ttyS16
+│   ├── ttyS17
+│   ├── ttyS18
+│   ├── ttyS19
+│   ├── ttyS2
+│   ├── ttyS20
+│   ├── ttyS21
+│   ├── ttyS22
+│   ├── ttyS23
+│   ├── ttyS24
+│   ├── ttyS25
+│   ├── ttyS26
+│   ├── ttyS27
+│   ├── ttyS28
+│   ├── ttyS29
+│   ├── ttyS3
+│   ├── ttyS30
+│   ├── ttyS31
+│   ├── ttyS4
+│   ├── ttyS5
+│   ├── ttyS6
+│   ├── ttyS7
+│   ├── ttyS8
+│   ├── ttyS9
+│   ├── ttyprintk
+│   ├── udmabuf
+│   ├── uinput
+│   ├── urandom
+│   ├── userfaultfd
+│   ├── vcs
+│   ├── vcs1
+│   ├── vcs2
+│   ├── vcs3
+│   ├── vcs4
+│   ├── vcs5
+│   ├── vcs6
+│   ├── vcsa
+│   ├── vcsa1
+│   ├── vcsa2
+│   ├── vcsa3
+│   ├── vcsa4
+│   ├── vcsa5
+│   ├── vcsa6
+│   ├── vcsu
+│   ├── vcsu1
+│   ├── vcsu2
+│   ├── vcsu3
+│   ├── vcsu4
+│   ├── vcsu5
+│   ├── vcsu6
+│   ├── vfio
+│   │   └── vfio
+│   ├── vga_arbiter
+│   ├── vhost-net
+│   ├── vhost-vsock
+│   ├── vmbus
+│   │   └── hv_kvp
+│   ├── zero
+│   └── zfs
+├── etc
+│   ├── ODBCDataSources
+│   ├── PackageKit
+│   │   ├── PackageKit.conf
+│   │   └── Vendor.conf
+│   ├── X11
+│   │   ├── Xreset
+│   │   ├── Xreset.d
+│   │   ├── Xresources
+│   │   ├── Xsession
+│   │   ├── Xsession.d
+│   │   ├── Xsession.options
+│   │   ├── rgb.txt
+│   │   └── xorg.conf.d
+│   ├── adduser.conf
+│   ├── alternatives
+│   │   ├── README
+│   │   ├── aclocal -> /usr/bin/aclocal-1.16
+│   │   ├── aclocal.1.gz -> /usr/share/man/man1/aclocal-1.16.1.gz
+│   │   ├── arptables -> /usr/sbin/arptables-nft
+│   │   ├── arptables-restore -> /usr/sbin/arptables-nft-restore
+│   │   ├── arptables-save -> /usr/sbin/arptables-nft-save
+│   │   ├── automake -> /usr/bin/automake-1.16
+│   │   ├── automake.1.gz -> /usr/share/man/man1/automake-1.16.1.gz
+│   │   ├── awk -> /usr/bin/gawk
+│   │   ├── awk.1.gz -> /usr/share/man/man1/gawk.1.gz
+│   │   ├── builtins.7.gz -> /usr/share/man/man7/bash-builtins.7.gz
+│   │   ├── c++ -> /usr/bin/g++
+│   │   ├── c++.1.gz -> /usr/share/man/man1/g++.1.gz
+│   │   ├── c89 -> /usr/bin/c89-gcc
+│   │   ├── c89.1.gz -> /usr/share/man/man1/c89-gcc.1.gz
+│   │   ├── c99 -> /usr/bin/c99-gcc
+│   │   ├── c99.1.gz -> /usr/share/man/man1/c99-gcc.1.gz
+│   │   ├── cc -> /usr/bin/gcc
+│   │   ├── cc.1.gz -> /usr/share/man/man1/gcc.1.gz
+│   │   ├── cpp -> /usr/bin/cpp
+│   │   ├── docker-compose -> /usr/local/bin/compose-switch
+│   │   ├── ebtables -> /usr/sbin/ebtables-nft
+│   │   ├── ebtables-restore -> /usr/sbin/ebtables-nft-restore
+│   │   ├── ebtables-save -> /usr/sbin/ebtables-nft-save
+│   │   ├── editor -> /bin/nano
+│   │   ├── editor.1.gz -> /usr/share/man/man1/nano.1.gz
+│   │   ├── ex -> /usr/bin/vim.basic
+│   │   ├── ex.1.gz -> /usr/share/man/man1/vim.1.gz
+│   │   ├── ex.da.1.gz -> /usr/share/man/da/man1/vim.1.gz
+│   │   ├── ex.de.1.gz -> /usr/share/man/de/man1/vim.1.gz
+│   │   ├── ex.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+│   │   ├── ex.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+│   │   ├── ex.ja.1.gz -> /usr/share/man/ja/man1/vim.1.gz
+│   │   ├── ex.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+│   │   ├── ex.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+│   │   ├── ex.tr.1.gz -> /usr/share/man/tr/man1/vim.1.gz
+│   │   ├── ip6tables -> /usr/sbin/ip6tables-legacy
+│   │   ├── ip6tables-restore -> /usr/sbin/ip6tables-legacy-restore
+│   │   ├── ip6tables-save -> /usr/sbin/ip6tables-legacy-save
+│   │   ├── iptables -> /usr/sbin/iptables-legacy
+│   │   ├── iptables-restore -> /usr/sbin/iptables-legacy-restore
+│   │   ├── iptables-save -> /usr/sbin/iptables-legacy-save
+│   │   ├── lzcat -> /usr/bin/xzcat
+│   │   ├── lzcat.1.gz -> /usr/share/man/man1/xzcat.1.gz
+│   │   ├── lzcmp -> /usr/bin/xzcmp
+│   │   ├── lzcmp.1.gz -> /usr/share/man/man1/xzcmp.1.gz
+│   │   ├── lzdiff -> /usr/bin/xzdiff
+│   │   ├── lzdiff.1.gz -> /usr/share/man/man1/xzdiff.1.gz
+│   │   ├── lzegrep -> /usr/bin/xzegrep
+│   │   ├── lzegrep.1.gz -> /usr/share/man/man1/xzegrep.1.gz
+│   │   ├── lzfgrep -> /usr/bin/xzfgrep
+│   │   ├── lzfgrep.1.gz -> /usr/share/man/man1/xzfgrep.1.gz
+│   │   ├── lzgrep -> /usr/bin/xzgrep
+│   │   ├── lzgrep.1.gz -> /usr/share/man/man1/xzgrep.1.gz
+│   │   ├── lzless -> /usr/bin/xzless
+│   │   ├── lzless.1.gz -> /usr/share/man/man1/xzless.1.gz
+│   │   ├── lzma -> /usr/bin/xz
+│   │   ├── lzma.1.gz -> /usr/share/man/man1/xz.1.gz
+│   │   ├── lzmore -> /usr/bin/xzmore
+│   │   ├── lzmore.1.gz -> /usr/share/man/man1/xzmore.1.gz
+│   │   ├── my.cnf -> /etc/mysql/my.cnf.fallback
+│   │   ├── nawk -> /usr/bin/gawk
+│   │   ├── nawk.1.gz -> /usr/share/man/man1/gawk.1.gz
+│   │   ├── open -> /usr/bin/run-mailcap
+│   │   ├── open.1.gz -> /usr/share/man/man1/run-mailcap.1.gz
+│   │   ├── pager -> /usr/bin/less
+│   │   ├── pager.1.gz -> /usr/share/man/man1/less.1.gz
+│   │   ├── pico -> /bin/nano
+│   │   ├── pico.1.gz -> /usr/share/man/man1/nano.1.gz
+│   │   ├── pinentry -> /usr/bin/pinentry-curses
+│   │   ├── pinentry.1.gz -> /usr/share/man/man1/pinentry-curses.1.gz
+│   │   ├── python3 -> /usr/local/python/3.12.1
+│   │   ├── rmt -> /usr/sbin/rmt-tar
+│   │   ├── rmt.8.gz -> /usr/share/man/man8/rmt-tar.8.gz
+│   │   ├── rview -> /usr/bin/vim.basic
+│   │   ├── rvim -> /usr/bin/vim.basic
+│   │   ├── unlzma -> /usr/bin/unxz
+│   │   ├── unlzma.1.gz -> /usr/share/man/man1/unxz.1.gz
+│   │   ├── vi -> /usr/bin/vim.basic
+│   │   ├── vi.1.gz -> /usr/share/man/man1/vim.1.gz
+│   │   ├── vi.da.1.gz -> /usr/share/man/da/man1/vim.1.gz
+│   │   ├── vi.de.1.gz -> /usr/share/man/de/man1/vim.1.gz
+│   │   ├── vi.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+│   │   ├── vi.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+│   │   ├── vi.ja.1.gz -> /usr/share/man/ja/man1/vim.1.gz
+│   │   ├── vi.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+│   │   ├── vi.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+│   │   ├── vi.tr.1.gz -> /usr/share/man/tr/man1/vim.1.gz
+│   │   ├── view -> /usr/bin/vim.basic
+│   │   ├── view.1.gz -> /usr/share/man/man1/vim.1.gz
+│   │   ├── view.da.1.gz -> /usr/share/man/da/man1/vim.1.gz
+│   │   ├── view.de.1.gz -> /usr/share/man/de/man1/vim.1.gz
+│   │   ├── view.fr.1.gz -> /usr/share/man/fr/man1/vim.1.gz
+│   │   ├── view.it.1.gz -> /usr/share/man/it/man1/vim.1.gz
+│   │   ├── view.ja.1.gz -> /usr/share/man/ja/man1/vim.1.gz
+│   │   ├── view.pl.1.gz -> /usr/share/man/pl/man1/vim.1.gz
+│   │   ├── view.ru.1.gz -> /usr/share/man/ru/man1/vim.1.gz
+│   │   ├── view.tr.1.gz -> /usr/share/man/tr/man1/vim.1.gz
+│   │   ├── vim -> /usr/bin/vim.basic
+│   │   ├── vimdiff -> /usr/bin/vim.basic
+│   │   ├── which -> /usr/bin/which.debianutils
+│   │   ├── which.1.gz -> /usr/share/man/man1/which.debianutils.1.gz
+│   │   ├── which.de1.gz -> /usr/share/man/de/man1/which.debianutils.1.gz
+│   │   ├── which.es1.gz -> /usr/share/man/es/man1/which.debianutils.1.gz
+│   │   ├── which.fr1.gz -> /usr/share/man/fr/man1/which.debianutils.1.gz
+│   │   ├── which.it1.gz -> /usr/share/man/it/man1/which.debianutils.1.gz
+│   │   ├── which.ja1.gz -> /usr/share/man/ja/man1/which.debianutils.1.gz
+│   │   ├── which.pl1.gz -> /usr/share/man/pl/man1/which.debianutils.1.gz
+│   │   ├── which.sl1.gz -> /usr/share/man/sl/man1/which.debianutils.1.gz
+│   │   ├── www-browser -> /usr/bin/lynx
+│   │   ├── www-browser.1.gz -> /usr/share/man/man1/lynx.1.gz
+│   │   ├── yacc -> /usr/bin/bison.yacc
+│   │   └── yaccman -> /usr/share/man/man1/bison.yacc.1.gz
+│   ├── apache2
+│   │   └── conf-available
+│   ├── apparmor.d
+│   │   ├── local
+│   │   └── usr.bin.man
+│   ├── apt
+│   │   ├── apt.conf.d
+│   │   ├── auth.conf.d
+│   │   ├── keyrings
+│   │   ├── preferences.d
+│   │   ├── sources.list
+│   │   ├── sources.list.d
+│   │   └── trusted.gpg.d
+│   ├── bash.bashrc
+│   ├── bash_completion
+│   ├── bash_completion.d
+│   │   ├── git-prompt
+│   │   ├── helm
+│   │   └── kubectl
+│   ├── bindresvport.blacklist
+│   ├── binfmt.d
+│   ├── ca-certificates
+│   │   └── update.d
+│   ├── ca-certificates.conf
+│   ├── cloud
+│   │   └── build.info
+│   ├── credstore  [error opening dir]
+│   ├── credstore.encrypted  [error opening dir]
+│   ├── cron.d
+│   │   └── e2scrub_all
+│   ├── cron.daily
+│   │   ├── apt-compat
+│   │   ├── dpkg
+│   │   └── man-db
+│   ├── cron.weekly
+│   │   └── man-db
+│   ├── csh.login
+│   ├── dbus-1
+│   │   ├── session.d
+│   │   └── system.d
+│   ├── debconf.conf
+│   ├── debian_version
+│   ├── debuginfod
+│   │   └── elfutils.urls
+│   ├── default
+│   │   ├── dbus
+│   │   ├── locale -> ../locale.conf
+│   │   ├── rsync
+│   │   ├── ssh
+│   │   └── useradd
+│   ├── deluser.conf
+│   ├── docker
+│   ├── dpkg
+│   │   ├── dpkg.cfg
+│   │   ├── dpkg.cfg.d
+│   │   ├── origins
+│   │   ├── shlibs.default
+│   │   └── shlibs.override
+│   ├── e2scrub.conf
+│   ├── emacs
+│   │   └── site-start.d
+│   ├── environment
+│   ├── ethertypes
+│   ├── fish
+│   │   ├── completions
+│   │   ├── conf.d
+│   │   ├── config.fish
+│   │   └── functions
+│   ├── fonts
+│   │   ├── conf.avail
+│   │   ├── conf.d
+│   │   └── fonts.conf
+│   ├── fstab
+│   ├── gai.conf
+│   ├── gdb
+│   │   ├── gdbinit
+│   │   └── gdbinit.d
+│   ├── gitconfig
+│   ├── gnutls
+│   │   └── config
+│   ├── gprofng.rc
+│   ├── groff
+│   │   ├── man.local
+│   │   └── mdoc.local
+│   ├── group
+│   ├── group-
+│   ├── gshadow
+│   ├── gshadow-
+│   ├── gss
+│   │   └── mech.d
+│   ├── host.conf
+│   ├── hostname
+│   ├── hosts
+│   ├── hosts.allow
+│   ├── hosts.deny
+│   ├── init.d
+│   │   ├── dbus
+│   │   ├── procps
+│   │   ├── rsync
+│   │   ├── ssh
+│   │   └── x11-common
+│   ├── inputrc
+│   ├── iproute2
+│   │   ├── bpf_pinning
+│   │   ├── ematch_map
+│   │   ├── group
+│   │   ├── nl_protos
+│   │   ├── rt_dsfield
+│   │   ├── rt_protos
+│   │   ├── rt_protos.d
+│   │   ├── rt_realms
+│   │   ├── rt_scopes
+│   │   ├── rt_tables
+│   │   └── rt_tables.d
+│   ├── issue
+│   ├── issue.net
+│   ├── kernel
+│   │   ├── install.d
+│   │   └── postinst.d
+│   ├── ld.so.cache
+│   ├── ld.so.conf
+│   ├── ld.so.conf.d
+│   │   ├── libc.conf
+│   │   ├── x86_64-linux-gnu.conf
+│   │   └── zz_i386-biarch-compat.conf
+│   ├── legal
+│   ├── libaudit.conf
+│   ├── libnl-3
+│   │   ├── classid
+│   │   └── pktloc
+│   ├── lighttpd
+│   │   ├── conf-available
+│   │   └── conf-enabled
+│   ├── locale.alias
+│   ├── locale.conf
+│   ├── locale.gen
+│   ├── localtime -> /usr/share/zoneinfo/Etc/UTC
+│   ├── logcheck
+│   │   └── ignore.d.server
+│   ├── login.defs
+│   ├── logrotate.d
+│   │   ├── alternatives
+│   │   ├── apt
+│   │   └── dpkg
+│   ├── lsb-release
+│   ├── lynx
+│   │   ├── lynx.cfg
+│   │   └── lynx.lss
+│   ├── machine-id
+│   ├── magic
+│   ├── magic.mime
+│   ├── mailcap
+│   ├── mailcap.order
+│   ├── manpath.config
+│   ├── mime.types
+│   ├── mke2fs.conf
+│   ├── modules-load.d
+│   │   └── modules.conf -> ../modules
+│   ├── mtab -> ../proc/self/mounts
+│   ├── mysql
+│   │   ├── conf.d
+│   │   ├── my.cnf -> /etc/alternatives/my.cnf
+│   │   └── my.cnf.fallback
+│   ├── nanorc
+│   ├── netconfig
+│   ├── networks
+│   ├── nsswitch.conf
+│   ├── odbc.ini
+│   ├── odbcinst.ini
+│   ├── opt
+│   ├── os-release -> ../usr/lib/os-release
+│   ├── pam.conf
+│   ├── pam.d
+│   │   ├── chfn
+│   │   ├── chpasswd
+│   │   ├── chsh
+│   │   ├── common-account
+│   │   ├── common-auth
+│   │   ├── common-password
+│   │   ├── common-session
+│   │   ├── common-session-noninteractive
+│   │   ├── login
+│   │   ├── newusers
+│   │   ├── other
+│   │   ├── passwd
+│   │   ├── runuser
+│   │   ├── runuser-l
+│   │   ├── sshd
+│   │   ├── su
+│   │   ├── su-l
+│   │   ├── sudo
+│   │   └── sudo-i
+│   ├── passwd
+│   ├── passwd-
+│   ├── perl
+│   │   └── Net
+│   ├── polkit-1
+│   │   └── rules.d
+│   ├── profile
+│   ├── profile.d
+│   │   ├── 00-restore-env.sh
+│   │   ├── 01-locale-fix.sh
+│   │   ├── bash_completion.sh
+│   │   ├── codespaces.sh
+│   │   ├── debuginfod.csh -> /usr/share/libdebuginfod-common/debuginfod.csh
+│   │   ├── debuginfod.sh -> /usr/share/libdebuginfod-common/debuginfod.sh
+│   │   ├── gawk.csh
+│   │   ├── gawk.sh
+│   │   └── rvm.sh
+│   ├── protocols
+│   ├── python3
+│   │   └── debian_config
+│   ├── python3.12
+│   │   └── sitecustomize.py
+│   ├── rc0.d
+│   ├── rc1.d
+│   ├── rc2.d
+│   │   ├── S01dbus -> ../init.d/dbus
+│   │   ├── S01rsync -> ../init.d/rsync
+│   │   └── S01ssh -> ../init.d/ssh
+│   ├── rc3.d
+│   │   ├── S01dbus -> ../init.d/dbus
+│   │   ├── S01rsync -> ../init.d/rsync
+│   │   └── S01ssh -> ../init.d/ssh
+│   ├── rc4.d
+│   │   ├── S01dbus -> ../init.d/dbus
+│   │   ├── S01rsync -> ../init.d/rsync
+│   │   └── S01ssh -> ../init.d/ssh
+│   ├── rc5.d
+│   │   ├── S01dbus -> ../init.d/dbus
+│   │   ├── S01rsync -> ../init.d/rsync
+│   │   └── S01ssh -> ../init.d/ssh
+│   ├── rc6.d
+│   ├── rcS.d
+│   │   ├── S01procps -> ../init.d/procps
+│   │   └── S01x11-common -> ../init.d/x11-common
+│   ├── resolv.conf
+│   ├── rmt -> /usr/sbin/rmt
+│   ├── rpc
+│   ├── rvmrc
+│   ├── security
+│   │   ├── access.conf
+│   │   ├── faillock.conf
+│   │   ├── group.conf
+│   │   ├── limits.conf
+│   │   ├── limits.d
+│   │   ├── namespace.conf
+│   │   ├── namespace.d
+│   │   ├── namespace.init
+│   │   ├── opasswd
+│   │   ├── pam_env.conf
+│   │   ├── pwhistory.conf
+│   │   ├── sepermit.conf
+│   │   └── time.conf
+│   ├── selinux
+│   │   └── semanage.conf
+│   ├── services
+│   ├── sgml
+│   │   ├── catalog -> /var/lib/sgml-base/supercatalog
+│   │   └── xml-core.cat
+│   ├── shadow
+│   ├── shadow-
+│   ├── shells
+│   ├── skel
+│   ├── ssh
+│   │   ├── moduli
+│   │   ├── ssh_config
+│   │   ├── ssh_config.d
+│   │   ├── ssh_host_ecdsa_key
+│   │   ├── ssh_host_ecdsa_key.pub
+│   │   ├── ssh_host_ed25519_key
+│   │   ├── ssh_host_ed25519_key.pub
+│   │   ├── ssh_host_rsa_key
+│   │   ├── ssh_host_rsa_key.pub
+│   │   ├── sshd_config
+│   │   ├── sshd_config.d
+│   │   └── sshd_config.ucf-dist
+│   ├── ssl
+│   │   ├── certs
+│   │   ├── openssl.cnf
+│   │   └── private
+│   ├── subgid
+│   ├── subgid-
+│   ├── subuid
+│   ├── subuid-
+│   ├── sudo.conf
+│   ├── sudo_logsrvd.conf
+│   ├── sudoers
+│   ├── sudoers.d
+│   │   ├── README
+│   │   └── codespace
+│   ├── sysctl.conf
+│   ├── sysctl.d
+│   │   ├── 10-bufferbloat.conf
+│   │   ├── 10-console-messages.conf
+│   │   ├── 10-ipv6-privacy.conf
+│   │   ├── 10-kernel-hardening.conf
+│   │   ├── 10-magic-sysrq.conf
+│   │   ├── 10-map-count.conf
+│   │   ├── 10-network-security.conf
+│   │   ├── 10-ptrace.conf
+│   │   ├── 10-zeropage.conf
+│   │   ├── 99-sysctl.conf -> ../sysctl.conf
+│   │   └── README.sysctl
+│   ├── systemd
+│   │   ├── journald.conf
+│   │   ├── logind.conf
+│   │   ├── network
+│   │   ├── networkd.conf
+│   │   ├── pstore.conf
+│   │   ├── sleep.conf
+│   │   ├── system
+│   │   ├── system-generators
+│   │   ├── system.conf
+│   │   ├── user
+│   │   └── user.conf
+│   ├── terminfo
+│   │   └── README
+│   ├── timezone
+│   ├── tmpfiles.d
+│   ├── ucf.conf
+│   ├── ufw
+│   │   └── applications.d
+│   ├── update-motd.d
+│   │   ├── 00-header
+│   │   ├── 10-help-text
+│   │   └── 50-motd-news
+│   ├── vconsole.conf -> default/keyboard
+│   ├── vim
+│   │   ├── vimrc
+│   │   └── vimrc.tiny
+│   ├── wgetrc
+│   ├── xattr.conf
+│   ├── xdg
+│   │   └── systemd
+│   ├── xml
+│   │   ├── catalog
+│   │   ├── catalog.old
+│   │   ├── polkitd.xml
+│   │   ├── polkitd.xml.old
+│   │   ├── xml-core.xml
+│   │   └── xml-core.xml.old
+│   └── zsh
+│       ├── newuser.zshrc.recommended
+│       ├── zlogin
+│       ├── zlogout
+│       ├── zprofile
+│       ├── zshenv
+│       └── zshrc
+├── go
+│   └── bin
+│       ├── dlv
+│       ├── golangci-lint
+│       ├── golint
+│       ├── gomodifytags
+│       ├── goplay
+│       ├── gopls
+│       ├── gotests
+│       ├── impl
+│       ├── revive
+│       └── staticcheck
+├── home
+│   ├── codespace
+│   │   ├── java -> /usr/local/sdkman/candidates/java
+│   │   └── nvm -> /usr/local/share/nvm
+│   └── vscode
+├── lib -> usr/lib
+├── lib.usr-is-merged
+├── lib32 -> usr/lib32
+├── lib64 -> usr/lib64
+├── media
+├── mnt
+├── opt
+│   ├── conda
+│   │   ├── bin
+│   │   ├── cmake
+│   │   ├── compiler_compat
+│   │   ├── conda-meta
+│   │   ├── condabin
+│   │   ├── etc
+│   │   ├── include
+│   │   ├── lib
+│   │   ├── man
+│   │   ├── pkgs
+│   │   ├── sbin
+│   │   ├── share
+│   │   ├── shell
+│   │   ├── ssl
+│   │   ├── x86_64-conda-linux-gnu
+│   │   └── x86_64-conda_cos7-linux-gnu
+│   ├── containerd  [error opening dir]
+│   ├── dotnet
+│   │   └── lts
+│   ├── oryx
+│   │   ├── benv -> /usr/local/oryx/benv
+│   │   ├── logger -> /usr/local/oryx/logger
+│   │   └── oryx -> /usr/local/oryx/oryx
+│   ├── python -> /usr/local/python
+│   └── tmp
+│       ├── build
+│       └── images
+├── proc
+│   ├── 1
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /
+│   │   ├── environ
+│   │   ├── exe -> /usr/sbin/docker-init
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1099
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── environ
+│   │   ├── exe -> /home/codespace/.vscode-remote/extensions/ms-python.python-2025.12.0-linux-x64/python-env-tools/bin/pet
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1185
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1191
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1315
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── environ
+│   │   ├── exe -> /usr/local/python/3.12.1/bin/python3.12
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1479
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /home/codespace/.vscode-remote/extensions/ms-python.vscode-pylance-2025.7.1/dist
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1486
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1493
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1559
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1570
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1578
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── environ
+│   │   ├── exe -> /usr/bin/bash
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 15889
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /
+│   │   ├── environ
+│   │   ├── exe -> /usr/bin/bash
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 1968
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── environ
+│   │   ├── exe -> /usr/bin/bash
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 2373
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /
+│   │   ├── environ
+│   │   ├── exe -> /usr/bin/dash
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 2384
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 2447
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> [Error reading symbolic link information]
+│   │   ├── environ
+│   │   ├── exe -> [Error reading symbolic link information]
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> [Error reading symbolic link information]
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 35
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> [Error reading symbolic link information]
+│   │   ├── environ
+│   │   ├── exe -> [Error reading symbolic link information]
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> [Error reading symbolic link information]
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 3822
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /workspaces/aphroditecho/modproc/copilot-custom
+│   │   ├── environ
+│   │   ├── exe -> /home/codespace/.vscode-remote/extensions/ms-ossdata.vscode-pgsql-1.8.0/pgsqltoolsservice/v2.0.12/Ubuntu16/pgsqltoolsservice/ossdbtoolsservice_main
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 38851
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /
+│   │   ├── environ
+│   │   ├── exe -> /usr/bin/sleep
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 38856
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /
+│   │   ├── environ
+│   │   ├── exe -> /usr/bin/tree
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 462
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /
+│   │   ├── environ
+│   │   ├── exe -> /usr/bin/dash
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 501
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> [Error reading symbolic link information]
+│   │   ├── environ
+│   │   ├── exe -> [Error reading symbolic link information]
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> [Error reading symbolic link information]
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 58
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> [Error reading symbolic link information]
+│   │   ├── environ
+│   │   ├── exe -> [Error reading symbolic link information]
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> [Error reading symbolic link information]
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 636
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── environ
+│   │   ├── exe -> /usr/bin/dash
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 645
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 685
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 7
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /
+│   │   ├── environ
+│   │   ├── exe -> /usr/bin/dash
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 700
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│   │   ├── environ
+│   │   ├── exe -> /vscode/bin/linux-x64/360a4e4fd251bfce169a4ddf857c7d25d1ad40da/node
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> /
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── 74
+│   │   ├── arch_status
+│   │   ├── attr
+│   │   ├── autogroup
+│   │   ├── auxv
+│   │   ├── cgroup
+│   │   ├── clear_refs
+│   │   ├── cmdline
+│   │   ├── comm
+│   │   ├── coredump_filter
+│   │   ├── cpu_resctrl_groups
+│   │   ├── cpuset
+│   │   ├── cwd -> [Error reading symbolic link information]
+│   │   ├── environ
+│   │   ├── exe -> [Error reading symbolic link information]
+│   │   ├── fd
+│   │   ├── fdinfo
+│   │   ├── gid_map
+│   │   ├── io
+│   │   ├── ksm_merging_pages
+│   │   ├── ksm_stat
+│   │   ├── latency
+│   │   ├── limits
+│   │   ├── loginuid
+│   │   ├── map_files
+│   │   ├── maps
+│   │   ├── mem
+│   │   ├── mountinfo
+│   │   ├── mounts
+│   │   ├── mountstats
+│   │   ├── net
+│   │   ├── ns
+│   │   ├── numa_maps
+│   │   ├── oom_adj
+│   │   ├── oom_score
+│   │   ├── oom_score_adj
+│   │   ├── pagemap
+│   │   ├── patch_state
+│   │   ├── personality
+│   │   ├── projid_map
+│   │   ├── root -> [Error reading symbolic link information]
+│   │   ├── sched
+│   │   ├── schedstat
+│   │   ├── sessionid
+│   │   ├── setgroups
+│   │   ├── smaps
+│   │   ├── smaps_rollup
+│   │   ├── stack
+│   │   ├── stat
+│   │   ├── statm
+│   │   ├── status
+│   │   ├── syscall
+│   │   ├── task
+│   │   ├── timens_offsets
+│   │   ├── timers
+│   │   ├── timerslack_ns
+│   │   ├── uid_map
+│   │   └── wchan
+│   ├── acpi
+│   │   └── wakeup
+│   ├── bootconfig
+│   ├── buddyinfo
+│   ├── bus
+│   │   ├── input
+│   │   └── pci
+│   ├── cgroups
+│   ├── cmdline
+│   ├── consoles
+│   ├── cpuinfo
+│   ├── crypto
+│   ├── devices
+│   ├── diskstats
+│   ├── dma
+│   ├── driver
+│   │   └── rtc
+│   ├── dynamic_debug
+│   │   └── control
+│   ├── execdomains
+│   ├── fb
+│   ├── filesystems
+│   ├── fs
+│   │   ├── cifs
+│   │   ├── ext4
+│   │   ├── fscache -> netfs
+│   │   ├── jbd2
+│   │   ├── netfs
+│   │   └── nfsd
+│   ├── interrupts
+│   ├── iomem
+│   ├── ioports
+│   ├── irq
+│   │   ├── 0
+│   │   ├── 1
+│   │   ├── 10
+│   │   ├── 11
+│   │   ├── 12
+│   │   ├── 13
+│   │   ├── 14
+│   │   ├── 15
+│   │   ├── 2
+│   │   ├── 3
+│   │   ├── 4
+│   │   ├── 5
+│   │   ├── 6
+│   │   ├── 7
+│   │   ├── 8
+│   │   ├── 9
+│   │   └── default_smp_affinity
+│   ├── kallsyms
+│   ├── kcore
+│   ├── key-users
+│   ├── keys
+│   ├── kmsg
+│   ├── kpagecgroup
+│   ├── kpagecount
+│   ├── kpageflags
+│   ├── latency_stats
+│   ├── loadavg
+│   ├── locks
+│   ├── mdstat
+│   ├── meminfo
+│   ├── misc
+│   ├── modules
+│   ├── mounts -> self/mounts
+│   ├── mtrr
+│   ├── net -> self/net
+│   ├── pagetypeinfo
+│   ├── partitions
+│   ├── pressure
+│   │   ├── cpu
+│   │   ├── io
+│   │   └── memory
+│   ├── schedstat
+│   ├── scsi
+│   │   ├── device_info
+│   │   ├── scsi
+│   │   └── sg
+│   ├── self -> 38856
+│   ├── slabinfo
+│   ├── softirqs
+│   ├── stat
+│   ├── swaps
+│   ├── sys
+│   │   ├── abi
+│   │   ├── debug
+│   │   ├── dev
+│   │   ├── fs
+│   │   ├── kernel
+│   │   ├── net
+│   │   ├── user
+│   │   └── vm
+│   ├── sysrq-trigger
+│   ├── sysvipc
+│   │   ├── msg
+│   │   ├── sem
+│   │   └── shm
+│   ├── thread-self -> 38856/task/38856
+│   ├── timer_list
+│   ├── tty
+│   │   ├── driver
+│   │   ├── drivers
+│   │   ├── ldisc
+│   │   └── ldiscs
+│   ├── uptime
+│   ├── version
+│   ├── version_signature
+│   ├── vmallocinfo
+│   ├── vmstat
+│   └── zoneinfo
+├── root  [error opening dir]
+├── run
+│   ├── adduser
+│   ├── containerd  [error opening dir]
+│   ├── dbus
+│   │   └── containers
+│   ├── docker  [error opening dir]
+│   ├── docker.pid
+│   ├── docker.sock
+│   ├── lock
+│   │   └── subsys
+│   ├── log
+│   ├── mount
+│   ├── sendsigs.omit.d
+│   ├── setrans
+│   ├── shm -> /dev/shm
+│   ├── sshd
+│   ├── sshd.pid
+│   ├── sudo  [error opening dir]
+│   ├── systemd
+│   │   ├── ask-password
+│   │   ├── container
+│   │   ├── machines
+│   │   ├── netif
+│   │   ├── seats
+│   │   ├── sessions
+│   │   ├── shutdown
+│   │   └── users
+│   ├── user
+│   └── xtables.lock
+├── sbin -> usr/sbin
+├── sbin.usr-is-merged
+├── srv
+├── sys
+│   ├── block
+│   │   ├── loop0 -> ../devices/virtual/block/loop0
+│   │   ├── loop1 -> ../devices/virtual/block/loop1
+│   │   ├── loop2 -> ../devices/virtual/block/loop2
+│   │   ├── loop3 -> ../devices/virtual/block/loop3
+│   │   ├── loop4 -> ../devices/virtual/block/loop4
+│   │   ├── loop5 -> ../devices/virtual/block/loop5
+│   │   ├── loop6 -> ../devices/virtual/block/loop6
+│   │   ├── loop7 -> ../devices/virtual/block/loop7
+│   │   ├── sda -> ../devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/00000000-0000-8899-0000-000000000000/host0/target0:0:0/0:0:0:0/block/sda
+│   │   ├── sdb -> ../devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/00000000-0001-8899-0000-000000000000/host1/target1:0:1/1:0:1:0/block/sdb
+│   │   ├── sdc -> ../devices/LNXSYSTM:00/LNXSYBUS:00/PNP0A03:00/device:07/VMBUS:01/f8b3781b-1e82-4818-a1c3-63d806ec15bb/host3/target3:0:0/3:0:0:0/block/sdc
+│   │   └── sr0 -> ../devices/pci0000:00/0000:00:07.1/ata2/host5/target5:0:0/5:0:0:0/block/sr0
+│   ├── bus
+│   │   ├── acpi
+│   │   ├── auxiliary
+│   │   ├── clockevents
+│   │   ├── clocksource
+│   │   ├── container
+│   │   ├── cpu
+│   │   ├── dax
+│   │   ├── edac
+│   │   ├── eisa
+│   │   ├── event_source
+│   │   ├── gpio
+│   │   ├── hid
+│   │   ├── i2c
+│   │   ├── isa
+│   │   ├── machinecheck
+│   │   ├── mdio_bus
+│   │   ├── memory
+│   │   ├── memory_tiering
+│   │   ├── mipi-dsi
+│   │   ├── nd
+│   │   ├── node
+│   │   ├── nvmem
+│   │   ├── pci
+│   │   ├── pci-epf
+│   │   ├── pci_express
+│   │   ├── platform
+│   │   ├── pnp
+│   │   ├── rapidio
+│   │   ├── scsi
+│   │   ├── serial-base
+│   │   ├── serio
+│   │   ├── soc
+│   │   ├── spi
+│   │   ├── usb
+│   │   ├── virtio
+│   │   ├── vmbus
+│   │   ├── vme
+│   │   └── workqueue
+│   ├── class
+│   │   ├── accel
+│   │   ├── ata_device
+│   │   ├── ata_link
+│   │   ├── ata_port
+│   │   ├── backlight
+│   │   ├── bdi
+│   │   ├── block
+│   │   ├── bsg
+│   │   ├── devcoredump
+│   │   ├── devfreq
+│   │   ├── devfreq-event
+│   │   ├── devlink
+│   │   ├── dma
+│   │   ├── dma_heap
+│   │   ├── dmi
+│   │   ├── drm
+│   │   ├── extcon
+│   │   ├── fc_host
+│   │   ├── fc_remote_ports
+│   │   ├── fc_transport
+│   │   ├── fc_vports
+│   │   ├── firmware
+│   │   ├── gpio
+│   │   ├── graphics
+│   │   ├── hidraw
+│   │   ├── hwmon
+│   │   ├── i2c-adapter
+│   │   ├── input
+│   │   ├── intel_scu_ipc
+│   │   ├── iommu
+│   │   ├── mdio_bus
+│   │   ├── mem
+│   │   ├── misc
+│   │   ├── nd
+│   │   ├── net
+│   │   ├── nvme
+│   │   ├── nvme-fabrics
+│   │   ├── nvme-generic
+│   │   ├── nvme-subsystem
+│   │   ├── pci_bus
+│   │   ├── pci_epc
+│   │   ├── phy
+│   │   ├── power_supply
+│   │   ├── powercap
+│   │   ├── ppp
+│   │   ├── pps
+│   │   ├── ptp
+│   │   ├── pwm
+│   │   ├── rapidio_port
+│   │   ├── regulator
+│   │   ├── rfkill
+│   │   ├── rtc
+│   │   ├── scsi_device
+│   │   ├── scsi_disk
+│   │   ├── scsi_generic
+│   │   ├── scsi_host
+│   │   ├── spi_master
+│   │   ├── spi_slave
+│   │   ├── thermal
+│   │   ├── tpm
+│   │   ├── tpmrm
+│   │   ├── tty
+│   │   ├── usbmisc
+│   │   ├── vc
+│   │   ├── virtio-ports
+│   │   ├── vtconsole
+│   │   ├── wakeup
+│   │   └── watchdog
+│   ├── dev
+│   │   ├── block
+│   │   └── char
+│   ├── devices
+│   │   ├── 0006:045E:0621.0001
+│   │   ├── LNXSYSTM:00
+│   │   ├── breakpoint
+│   │   ├── isa
+│   │   ├── kprobe
+│   │   ├── msr
+│   │   ├── pci0000:00
+│   │   ├── platform
+│   │   ├── pnp0
+│   │   ├── software
+│   │   ├── system
+│   │   ├── tracepoint
+│   │   ├── uprobe
+│   │   └── virtual
+│   ├── firmware
+│   │   ├── acpi
+│   │   ├── dmi
+│   │   └── memmap
+│   ├── fs
+│   │   ├── bpf
+│   │   ├── cgroup
+│   │   ├── ecryptfs
+│   │   ├── ext4
+│   │   ├── fuse
+│   │   └── pstore
+│   ├── kernel
+│   │   ├── address_bits
+│   │   ├── boot_params
+│   │   ├── btf
+│   │   ├── cgroup
+│   │   ├── config
+│   │   ├── cpu_byteorder
+│   │   ├── crash_elfcorehdr_size
+│   │   ├── debug
+│   │   ├── fscaps
+│   │   ├── iommu_groups
+│   │   ├── irq
+│   │   ├── kexec_crash_loaded
+│   │   ├── kexec_crash_size
+│   │   ├── kexec_loaded
+│   │   ├── livepatch
+│   │   ├── mm
+│   │   ├── notes
+│   │   ├── oops_count
+│   │   ├── profiling
+│   │   ├── rcu_expedited
+│   │   ├── rcu_normal
+│   │   ├── reboot
+│   │   ├── security
+│   │   ├── slab
+│   │   ├── software_nodes
+│   │   ├── tracing
+│   │   ├── uevent_helper
+│   │   ├── uevent_seqnum
+│   │   ├── vmcoreinfo
+│   │   └── warn_count
+│   ├── module
+│   │   ├── 8250
+│   │   ├── acpi
+│   │   ├── acpi_cpufreq
+│   │   ├── acpiphp
+│   │   ├── aesni_intel
+│   │   ├── apparmor
+│   │   ├── ata_generic
+│   │   ├── ata_piix
+│   │   ├── autofs4
+│   │   ├── binfmt_misc
+│   │   ├── blk_cgroup
+│   │   ├── blk_crypto
+│   │   ├── block
+│   │   ├── br_netfilter
+│   │   ├── bridge
+│   │   ├── button
+│   │   ├── ccp
+│   │   ├── cifs
+│   │   ├── cifs_arc4
+│   │   ├── cifs_md4
+│   │   ├── clocksource
+│   │   ├── compression
+│   │   ├── configfs
+│   │   ├── cpufreq
+│   │   ├── cpuidle
+│   │   ├── crc32_pclmul
+│   │   ├── crc64_rocksoft
+│   │   ├── crc_itu_t
+│   │   ├── crc_t10dif
+│   │   ├── crct10dif_pclmul
+│   │   ├── cryptd
+│   │   ├── crypto_simd
+│   │   ├── cryptomgr
+│   │   ├── debug_core
+│   │   ├── device_hmem
+│   │   ├── dm_bufio
+│   │   ├── dm_mod
+│   │   ├── dm_multipath
+│   │   ├── dm_snapshot
+│   │   ├── dns_resolver
+│   │   ├── drm
+│   │   ├── drm_kms_helper
+│   │   ├── dynamic_debug
+│   │   ├── edac_core
+│   │   ├── edd
+│   │   ├── efi_pstore
+│   │   ├── eisa_bus
+│   │   ├── fb
+│   │   ├── firmware_class
+│   │   ├── fscrypto
+│   │   ├── fuse
+│   │   ├── ghash_clmulni_intel
+│   │   ├── gpiolib_acpi
+│   │   ├── haltpoll
+│   │   ├── hid
+│   │   ├── hid_generic
+│   │   ├── hid_hyperv
+│   │   ├── hv_balloon
+│   │   ├── hv_netvsc
+│   │   ├── hv_storvsc
+│   │   ├── hv_utils
+│   │   ├── hv_vmbus
+│   │   ├── hyperv_drm
+│   │   ├── hyperv_keyboard
+│   │   ├── i8042
+│   │   ├── ima
+│   │   ├── intel_idle
+│   │   ├── ip6_tables
+│   │   ├── ip6table_filter
+│   │   ├── ip6table_nat
+│   │   ├── ip_set
+│   │   ├── ip_tables
+│   │   ├── iptable_filter
+│   │   ├── iptable_nat
+│   │   ├── iptable_security
+│   │   ├── ipv6
+│   │   ├── irqbypass
+│   │   ├── joydev
+│   │   ├── kdb
+│   │   ├── kernel
+│   │   ├── keyboard
+│   │   ├── kfence
+│   │   ├── kgdb_nmi
+│   │   ├── kgdboc
+│   │   ├── kvm
+│   │   ├── kvm_amd
+│   │   ├── libata
+│   │   ├── libcrc32c
+│   │   ├── libnvdimm
+│   │   ├── llc
+│   │   ├── loop
+│   │   ├── md_mod
+│   │   ├── memory_hotplug
+│   │   ├── microcode
+│   │   ├── module
+│   │   ├── mousedev
+│   │   ├── netfs
+│   │   ├── netpoll
+│   │   ├── nf_conntrack
+│   │   ├── nf_conntrack_netlink
+│   │   ├── nf_defrag_ipv4
+│   │   ├── nf_defrag_ipv6
+│   │   ├── nf_nat
+│   │   ├── nfit
+│   │   ├── nfnetlink
+│   │   ├── nls_iso8859_1
+│   │   ├── nls_ucs2_utils
+│   │   ├── nls_utf8
+│   │   ├── nmi_backtrace
+│   │   ├── nvme
+│   │   ├── nvme_core
+│   │   ├── nvme_fabrics
+│   │   ├── overlay
+│   │   ├── page_alloc
+│   │   ├── page_reporting
+│   │   ├── pata_acpi
+│   │   ├── pata_sis
+│   │   ├── pcc_cpufreq
+│   │   ├── pci_hotplug
+│   │   ├── pcie_aspm
+│   │   ├── pciehp
+│   │   ├── polyval_clmulni
+│   │   ├── polyval_generic
+│   │   ├── ppp_generic
+│   │   ├── printk
+│   │   ├── processor
+│   │   ├── pstore
+│   │   ├── random
+│   │   ├── rcupdate
+│   │   ├── rcutree
+│   │   ├── rfkill
+│   │   ├── rng_core
+│   │   ├── rtc_cmos
+│   │   ├── sch_fq_codel
+│   │   ├── scsi_dh_alua
+│   │   ├── scsi_dh_emc
+│   │   ├── scsi_dh_rdac
+│   │   ├── scsi_mod
+│   │   ├── scsi_transport_fc
+│   │   ├── secretmem
+│   │   ├── serio_raw
+│   │   ├── sg
+│   │   ├── sha1_ssse3
+│   │   ├── sha256_ssse3
+│   │   ├── shpchp
+│   │   ├── spurious
+│   │   ├── sr_mod
+│   │   ├── srcutree
+│   │   ├── stp
+│   │   ├── suspend
+│   │   ├── sysrq
+│   │   ├── tcp_cubic
+│   │   ├── tls
+│   │   ├── tpm
+│   │   ├── tpm_crb
+│   │   ├── tpm_tis
+│   │   ├── tpm_tis_core
+│   │   ├── udf
+│   │   ├── udmabuf
+│   │   ├── usbcore
+│   │   ├── uv_nmi
+│   │   ├── virtio_blk
+│   │   ├── virtio_mmio
+│   │   ├── virtio_net
+│   │   ├── virtio_pci
+│   │   ├── virtio_pci_legacy_dev
+│   │   ├── virtio_pci_modern_dev
+│   │   ├── virtio_scsi
+│   │   ├── virtual_root
+│   │   ├── vt
+│   │   ├── vxlan
+│   │   ├── watchdog
+│   │   ├── workqueue
+│   │   ├── x_tables
+│   │   ├── xfrm_algo
+│   │   ├── xfrm_user
+│   │   ├── xhci_hcd
+│   │   ├── xt_MASQUERADE
+│   │   ├── xt_addrtype
+│   │   ├── xt_conntrack
+│   │   ├── xt_owner
+│   │   ├── xt_set
+│   │   ├── xt_tcpudp
+│   │   ├── xz_dec
+│   │   └── zswap
+│   └── power
+│       ├── disk
+│       ├── image_size
+│       ├── mem_sleep
+│       ├── pm_async
+│       ├── pm_debug_messages
+│       ├── pm_freeze_timeout
+│       ├── pm_print_times
+│       ├── pm_test
+│       ├── pm_trace
+│       ├── pm_trace_dev_match
+│       ├── pm_wakeup_irq
+│       ├── reserved_size
+│       ├── resume
+│       ├── resume_offset
+│       ├── state
+│       ├── suspend_stats
+│       ├── sync_on_suspend
+│       ├── wake_lock
+│       ├── wake_unlock
+│       └── wakeup_count
+├── tmp
+│   ├── codespaces_logs
+│   │   └── 20250819_130724_17556088445150_VSCode.log
+│   ├── dockerd.log
+│   ├── package-685q0PhdYQF32hh.tmp
+│   ├── pyright-1479-0la0v3cSTrHG
+│   ├── python-languageserver-cancellation
+│   │   └── a334c843f30b9446da1a29dd49862dc29a8558579c
+│   ├── sshd.log
+│   ├── storage_version.txt
+│   ├── vscode-git-60fc2fb3fb.sock
+│   ├── vscode-ipc-2c82caec-a4ba-499b-b40f-1bf239003f95.sock
+│   ├── vscode-ipc-56ab625a-a7f3-4e42-afff-d9afb5d5e180.sock
+│   ├── vscode-ipc-60e0bad4-fdb8-4788-ac6b-5d6c53c5fdc3.sock
+│   └── vscode-ipc-d7b3d576-ff42-4ba1-a378-b9aca9777dd5.sock
+├── usr
+│   ├── bin
+│   │   ├── FileCheck-18 -> ../lib/llvm-18/bin/FileCheck
+│   │   ├── UnicodeNameMappingGenerator-18 -> ../lib/llvm-18/bin/UnicodeNameMappingGenerator
+│   │   ├── X11 -> .
+│   │   ├── [
+│   │   ├── aclocal -> /etc/alternatives/aclocal
+│   │   ├── aclocal-1.16
+│   │   ├── add-apt-repository
+│   │   ├── addpart
+│   │   ├── addr2line -> x86_64-linux-gnu-addr2line
+│   │   ├── apropos -> whatis
+│   │   ├── apt
+│   │   ├── apt-add-repository -> add-apt-repository
+│   │   ├── apt-cache
+│   │   ├── apt-cdrom
+│   │   ├── apt-config
+│   │   ├── apt-extracttemplates
+│   │   ├── apt-ftparchive
+│   │   ├── apt-get
+│   │   ├── apt-key
+│   │   ├── apt-mark
+│   │   ├── apt-sortpkgs
+│   │   ├── ar -> x86_64-linux-gnu-ar
+│   │   ├── arch
+│   │   ├── as -> x86_64-linux-gnu-as
+│   │   ├── asan_symbolize -> asan_symbolize-18
+│   │   ├── asan_symbolize-18
+│   │   ├── autoconf
+│   │   ├── autoheader
+│   │   ├── autom4te
+│   │   ├── automake -> /etc/alternatives/automake
+│   │   ├── automake-1.16
+│   │   ├── autoreconf
+│   │   ├── autoscan
+│   │   ├── autoupdate
+│   │   ├── awk -> /etc/alternatives/awk
+│   │   ├── b2sum
+│   │   ├── base32
+│   │   ├── base64
+│   │   ├── basename
+│   │   ├── basenc
+│   │   ├── bash
+│   │   ├── bashbug
+│   │   ├── bison
+│   │   ├── bison.yacc
+│   │   ├── bugpoint -> ../lib/llvm-18/bin/bugpoint
+│   │   ├── bugpoint-18 -> ../lib/llvm-18/bin/bugpoint
+│   │   ├── bunzip2
+│   │   ├── busctl
+│   │   ├── bzcat
+│   │   ├── bzcmp -> bzdiff
+│   │   ├── bzdiff
+│   │   ├── bzegrep -> bzgrep
+│   │   ├── bzexe
+│   │   ├── bzfgrep -> bzgrep
+│   │   ├── bzgrep
+│   │   ├── bzip2
+│   │   ├── bzip2recover
+│   │   ├── bzless -> bzmore
+│   │   ├── bzmore
+│   │   ├── c++ -> /etc/alternatives/c++
+│   │   ├── c++filt -> x86_64-linux-gnu-c++filt
+│   │   ├── c89 -> /etc/alternatives/c89
+│   │   ├── c89-gcc
+│   │   ├── c99 -> /etc/alternatives/c99
+│   │   ├── c99-gcc
+│   │   ├── c_rehash
+│   │   ├── callgrind_annotate
+│   │   ├── callgrind_control
+│   │   ├── captoinfo -> tic
+│   │   ├── cat
+│   │   ├── catman
+│   │   ├── cautious-launcher
+│   │   ├── cc -> /etc/alternatives/cc
+│   │   ├── ccache-swig3.0
+│   │   ├── cg_annotate
+│   │   ├── cg_diff
+│   │   ├── cg_merge
+│   │   ├── chage
+│   │   ├── chattr
+│   │   ├── chcon
+│   │   ├── chfn
+│   │   ├── chgrp
+│   │   ├── chmod
+│   │   ├── choom
+│   │   ├── chown
+│   │   ├── chronic
+│   │   ├── chrt
+│   │   ├── chsh
+│   │   ├── cksum
+│   │   ├── clang -> ../lib/llvm-18/bin/clang
+│   │   ├── clang++ -> ../lib/llvm-18/bin/clang++
+│   │   ├── clang++-18 -> ../lib/llvm-18/bin/clang++
+│   │   ├── clang-18 -> ../lib/llvm-18/bin/clang
+│   │   ├── clang-cpp-18 -> ../lib/llvm-18/bin/clang-cpp
+│   │   ├── clear
+│   │   ├── clear_console
+│   │   ├── cmake
+│   │   ├── cmp
+│   │   ├── col
+│   │   ├── colcrt
+│   │   ├── colrm
+│   │   ├── column
+│   │   ├── combine
+│   │   ├── comm
+│   │   ├── compose -> run-mailcap
+│   │   ├── containerd
+│   │   ├── containerd-shim
+│   │   ├── containerd-shim-runc-v1
+│   │   ├── containerd-shim-runc-v2
+│   │   ├── containerd-stress
+│   │   ├── corelist
+│   │   ├── count-18 -> ../lib/llvm-18/bin/count
+│   │   ├── cp
+│   │   ├── cpack
+│   │   ├── cpan
+│   │   ├── cpan5.38-x86_64-linux-gnu
+│   │   ├── cpp -> cpp-13
+│   │   ├── cpp-13 -> x86_64-linux-gnu-cpp-13
+│   │   ├── cppcheck
+│   │   ├── cppcheck-htmlreport
+│   │   ├── csplit
+│   │   ├── ctest
+│   │   ├── ctr
+│   │   ├── ctstat -> lnstat
+│   │   ├── curl
+│   │   ├── curl-config
+│   │   ├── cut
+│   │   ├── cvtsudoers
+│   │   ├── dash
+│   │   ├── date
+│   │   ├── dbus-cleanup-sockets
+│   │   ├── dbus-daemon
+│   │   ├── dbus-monitor
+│   │   ├── dbus-run-session
+│   │   ├── dbus-send
+│   │   ├── dbus-update-activation-environment
+│   │   ├── dbus-uuidgen
+│   │   ├── dd
+│   │   ├── deb-systemd-helper
+│   │   ├── deb-systemd-invoke
+│   │   ├── debconf
+│   │   ├── debconf-apt-progress
+│   │   ├── debconf-communicate
+│   │   ├── debconf-copydb
+│   │   ├── debconf-escape
+│   │   ├── debconf-set-selections
+│   │   ├── debconf-show
+│   │   ├── delpart
+│   │   ├── derb
+│   │   ├── df
+│   │   ├── dh_autotools-dev_restoreconfig
+│   │   ├── dh_autotools-dev_updateconfig
+│   │   ├── dh_bash-completion
+│   │   ├── dh_installxmlcatalogs
+│   │   ├── dialog
+│   │   ├── diff
+│   │   ├── diff3
+│   │   ├── dir
+│   │   ├── dircolors
+│   │   ├── dirmngr
+│   │   ├── dirmngr-client
+│   │   ├── dirname
+│   │   ├── dmesg
+│   │   ├── dnsdomainname -> hostname
+│   │   ├── docker
+│   │   ├── docker-proxy
+│   │   ├── dockerd
+│   │   ├── domainname -> hostname
+│   │   ├── dotnet -> /usr/share/dotnet/dotnet
+│   │   ├── dpkg
+│   │   ├── dpkg-architecture
+│   │   ├── dpkg-buildapi
+│   │   ├── dpkg-buildflags
+│   │   ├── dpkg-buildpackage
+│   │   ├── dpkg-buildtree
+│   │   ├── dpkg-checkbuilddeps
+│   │   ├── dpkg-deb
+│   │   ├── dpkg-distaddfile
+│   │   ├── dpkg-divert
+│   │   ├── dpkg-genbuildinfo
+│   │   ├── dpkg-genchanges
+│   │   ├── dpkg-gencontrol
+│   │   ├── dpkg-gensymbols
+│   │   ├── dpkg-maintscript-helper
+│   │   ├── dpkg-mergechangelogs
+│   │   ├── dpkg-name
+│   │   ├── dpkg-parsechangelog
+│   │   ├── dpkg-query
+│   │   ├── dpkg-realpath
+│   │   ├── dpkg-scanpackages
+│   │   ├── dpkg-scansources
+│   │   ├── dpkg-shlibdeps
+│   │   ├── dpkg-source
+│   │   ├── dpkg-split
+│   │   ├── dpkg-statoverride
+│   │   ├── dpkg-trigger
+│   │   ├── dpkg-vendor
+│   │   ├── dsymutil -> ../lib/llvm-18/bin/dsymutil
+│   │   ├── dsymutil-18 -> ../lib/llvm-18/bin/dsymutil
+│   │   ├── du
+│   │   ├── dumpsexp
+│   │   ├── dwp -> x86_64-linux-gnu-dwp
+│   │   ├── echo
+│   │   ├── edit -> run-mailcap
+│   │   ├── editor -> /etc/alternatives/editor
+│   │   ├── egrep
+│   │   ├── elfedit -> x86_64-linux-gnu-elfedit
+│   │   ├── enc2xs
+│   │   ├── encguess
+│   │   ├── env
+│   │   ├── envsubst
+│   │   ├── eqn
+│   │   ├── errno
+│   │   ├── ex -> /etc/alternatives/ex
+│   │   ├── expand
+│   │   ├── expiry
+│   │   ├── expr
+│   │   ├── factor
+│   │   ├── faillog
+│   │   ├── fallocate
+│   │   ├── false
+│   │   ├── fc-cache
+│   │   ├── fc-cat
+│   │   ├── fc-conflist
+│   │   ├── fc-list
+│   │   ├── fc-match
+│   │   ├── fc-pattern
+│   │   ├── fc-query
+│   │   ├── fc-scan
+│   │   ├── fc-validate
+│   │   ├── fgrep
+│   │   ├── file
+│   │   ├── find
+│   │   ├── findmnt
+│   │   ├── fish
+│   │   ├── fish_indent
+│   │   ├── fish_key_reader
+│   │   ├── flock
+│   │   ├── fmt
+│   │   ├── fold
+│   │   ├── free
+│   │   ├── fsnotifywait
+│   │   ├── fsnotifywatch
+│   │   ├── funzip
+│   │   ├── fuser
+│   │   ├── g++ -> g++-13
+│   │   ├── g++-13 -> x86_64-linux-gnu-g++-13
+│   │   ├── gapplication
+│   │   ├── gawk
+│   │   ├── gawkbug
+│   │   ├── gcc -> gcc-13
+│   │   ├── gcc-13 -> x86_64-linux-gnu-gcc-13
+│   │   ├── gcc-ar -> gcc-ar-13
+│   │   ├── gcc-ar-13 -> x86_64-linux-gnu-gcc-ar-13
+│   │   ├── gcc-nm -> gcc-nm-13
+│   │   ├── gcc-nm-13 -> x86_64-linux-gnu-gcc-nm-13
+│   │   ├── gcc-ranlib -> gcc-ranlib-13
+│   │   ├── gcc-ranlib-13 -> x86_64-linux-gnu-gcc-ranlib-13
+│   │   ├── gcore
+│   │   ├── gcov -> gcov-13
+│   │   ├── gcov-13 -> x86_64-linux-gnu-gcov-13
+│   │   ├── gcov-dump -> gcov-dump-13
+│   │   ├── gcov-dump-13 -> x86_64-linux-gnu-gcov-dump-13
+│   │   ├── gcov-tool -> gcov-tool-13
+│   │   ├── gcov-tool-13 -> x86_64-linux-gnu-gcov-tool-13
+│   │   ├── gdb
+│   │   ├── gdb-add-index
+│   │   ├── gdbtui
+│   │   ├── gdbus
+│   │   ├── gdbus-codegen
+│   │   ├── gen-manpages
+│   │   ├── genbrk
+│   │   ├── gencat
+│   │   ├── gencfu
+│   │   ├── gencnval
+│   │   ├── gendict
+│   │   ├── genrb
+│   │   ├── geqn -> eqn
+│   │   ├── getconf
+│   │   ├── getent
+│   │   ├── getopt
+│   │   ├── gettext
+│   │   ├── gettext.sh
+│   │   ├── gettextize
+│   │   ├── gh
+│   │   ├── gi-compile-repository -> ../lib/x86_64-linux-gnu/glib-2.0/gi-compile-repository
+│   │   ├── gi-decompile-typelib -> ../lib/x86_64-linux-gnu/glib-2.0/gi-decompile-typelib
+│   │   ├── gi-inspect-typelib -> ../lib/x86_64-linux-gnu/glib-2.0/gi-inspect-typelib
+│   │   ├── gio
+│   │   ├── gio-querymodules -> ../lib/x86_64-linux-gnu/glib-2.0/gio-querymodules
+│   │   ├── git
+│   │   ├── git-receive-pack -> git
+│   │   ├── git-shell
+│   │   ├── git-upload-archive -> git
+│   │   ├── git-upload-pack -> git
+│   │   ├── glib-compile-resources
+│   │   ├── glib-compile-schemas -> ../lib/x86_64-linux-gnu/glib-2.0/glib-compile-schemas
+│   │   ├── glib-genmarshal
+│   │   ├── glib-gettextize
+│   │   ├── glib-mkenums
+│   │   ├── gmake -> make
+│   │   ├── gobject-query
+│   │   ├── gold -> x86_64-linux-gnu-gold
+│   │   ├── gp-archive -> x86_64-linux-gnu-gp-archive
+│   │   ├── gp-collect-app -> x86_64-linux-gnu-gp-collect-app
+│   │   ├── gp-display-html -> x86_64-linux-gnu-gp-display-html
+│   │   ├── gp-display-src -> x86_64-linux-gnu-gp-display-src
+│   │   ├── gp-display-text -> x86_64-linux-gnu-gp-display-text
+│   │   ├── gpasswd
+│   │   ├── gpg
+│   │   ├── gpg-agent
+│   │   ├── gpg-connect-agent
+│   │   ├── gpg2 -> gpg
+│   │   ├── gpgconf
+│   │   ├── gpgparsemail
+│   │   ├── gpgrt-config
+│   │   ├── gpgsm
+│   │   ├── gpgsplit
+│   │   ├── gpgtar
+│   │   ├── gpgv
+│   │   ├── gpic -> pic
+│   │   ├── gprof -> x86_64-linux-gnu-gprof
+│   │   ├── gprofng -> x86_64-linux-gnu-gprofng
+│   │   ├── grep
+│   │   ├── gresource
+│   │   ├── groff
+│   │   ├── grog
+│   │   ├── grops
+│   │   ├── grotty
+│   │   ├── groups
+│   │   ├── gsettings
+│   │   ├── gtbl -> tbl
+│   │   ├── gtester
+│   │   ├── gtester-report
+│   │   ├── gunzip
+│   │   ├── gzexe
+│   │   ├── gzip
+│   │   ├── h2ph
+│   │   ├── h2xs
+│   │   ├── hardlink
+│   │   ├── hd -> hexdump
+│   │   ├── head
+│   │   ├── helpztags
+│   │   ├── hexdump
+│   │   ├── hmac256
+│   │   ├── hostid
+│   │   ├── hostname
+│   │   ├── hostnamectl
+│   │   ├── htop
+│   │   ├── i386 -> setarch
+│   │   ├── iconv
+│   │   ├── icuexportdata
+│   │   ├── icuinfo
+│   │   ├── id
+│   │   ├── ifdata
+│   │   ├── ifnames
+│   │   ├── ifne
+│   │   ├── infocmp
+│   │   ├── infotocap -> tic
+│   │   ├── inotifywait
+│   │   ├── inotifywatch
+│   │   ├── install
+│   │   ├── instmodsh
+│   │   ├── ionice
+│   │   ├── ip
+│   │   ├── ipcmk
+│   │   ├── ipcrm
+│   │   ├── ipcs
+│   │   ├── iptables-xml -> ../sbin/xtables-legacy-multi
+│   │   ├── ischroot
+│   │   ├── isutf8
+│   │   ├── join
+│   │   ├── journalctl
+│   │   ├── jq
+│   │   ├── json_pp
+│   │   ├── kbxutil
+│   │   ├── kernel-install
+│   │   ├── kill
+│   │   ├── killall
+│   │   ├── last
+│   │   ├── lastb -> last
+│   │   ├── lastlog
+│   │   ├── lcf
+│   │   ├── lckdo
+│   │   ├── ld -> x86_64-linux-gnu-ld
+│   │   ├── ld.bfd -> x86_64-linux-gnu-ld.bfd
+│   │   ├── ld.gold -> x86_64-linux-gnu-ld.gold
+│   │   ├── ld.so -> ../lib64/ld-linux-x86-64.so.2
+│   │   ├── ldd
+│   │   ├── less
+│   │   ├── lessecho
+│   │   ├── lessfile -> lesspipe
+│   │   ├── lesskey
+│   │   ├── lesspipe
+│   │   ├── lexgrog
+│   │   ├── libgcrypt-config
+│   │   ├── libnetcfg
+│   │   ├── libpng-config -> libpng16-config
+│   │   ├── libpng16-config
+│   │   ├── libtoolize
+│   │   ├── link
+│   │   ├── linux32 -> setarch
+│   │   ├── linux64 -> setarch
+│   │   ├── llc -> ../lib/llvm-18/bin/llc
+│   │   ├── llc-18 -> ../lib/llvm-18/bin/llc
+│   │   ├── lldb -> lldb-18
+│   │   ├── lldb-18 -> ../lib/llvm-18/bin/lldb
+│   │   ├── lldb-argdumper -> lldb-argdumper-18
+│   │   ├── lldb-argdumper-18 -> ../lib/llvm-18/bin/lldb-argdumper
+│   │   ├── lldb-dap-18 -> ../lib/llvm-18/bin/lldb-dap
+│   │   ├── lldb-instr-18 -> ../lib/llvm-18/bin/lldb-instr
+│   │   ├── lldb-server -> lldb-server-18
+│   │   ├── lldb-server-18 -> ../lib/llvm-18/bin/lldb-server
+│   │   ├── lli -> ../lib/llvm-18/bin/lli
+│   │   ├── lli-18 -> ../lib/llvm-18/bin/lli
+│   │   ├── lli-child-target-18 -> ../lib/llvm-18/bin/lli-child-target
+│   │   ├── llvm-PerfectShuffle -> ../lib/llvm-18/bin/llvm-PerfectShuffle
+│   │   ├── llvm-PerfectShuffle-18 -> ../lib/llvm-18/bin/llvm-PerfectShuffle
+│   │   ├── llvm-addr2line -> ../lib/llvm-18/bin/llvm-addr2line
+│   │   ├── llvm-addr2line-18 -> ../lib/llvm-18/bin/llvm-addr2line
+│   │   ├── llvm-ar -> ../lib/llvm-18/bin/llvm-ar
+│   │   ├── llvm-ar-18 -> ../lib/llvm-18/bin/llvm-ar
+│   │   ├── llvm-as -> ../lib/llvm-18/bin/llvm-as
+│   │   ├── llvm-as-18 -> ../lib/llvm-18/bin/llvm-as
+│   │   ├── llvm-bcanalyzer -> ../lib/llvm-18/bin/llvm-bcanalyzer
+│   │   ├── llvm-bcanalyzer-18 -> ../lib/llvm-18/bin/llvm-bcanalyzer
+│   │   ├── llvm-bitcode-strip-18 -> ../lib/llvm-18/bin/llvm-bitcode-strip
+│   │   ├── llvm-c-test -> ../lib/llvm-18/bin/llvm-c-test
+│   │   ├── llvm-c-test-18 -> ../lib/llvm-18/bin/llvm-c-test
+│   │   ├── llvm-cat -> ../lib/llvm-18/bin/llvm-cat
+│   │   ├── llvm-cat-18 -> ../lib/llvm-18/bin/llvm-cat
+│   │   ├── llvm-cfi-verify -> ../lib/llvm-18/bin/llvm-cfi-verify
+│   │   ├── llvm-cfi-verify-18 -> ../lib/llvm-18/bin/llvm-cfi-verify
+│   │   ├── llvm-config -> ../lib/llvm-18/bin/llvm-config
+│   │   ├── llvm-config-18 -> ../lib/llvm-18/bin/llvm-config
+│   │   ├── llvm-cov -> ../lib/llvm-18/bin/llvm-cov
+│   │   ├── llvm-cov-18 -> ../lib/llvm-18/bin/llvm-cov
+│   │   ├── llvm-cvtres -> ../lib/llvm-18/bin/llvm-cvtres
+│   │   ├── llvm-cvtres-18 -> ../lib/llvm-18/bin/llvm-cvtres
+│   │   ├── llvm-cxxdump -> ../lib/llvm-18/bin/llvm-cxxdump
+│   │   ├── llvm-cxxdump-18 -> ../lib/llvm-18/bin/llvm-cxxdump
+│   │   ├── llvm-cxxfilt -> ../lib/llvm-18/bin/llvm-cxxfilt
+│   │   ├── llvm-cxxfilt-18 -> ../lib/llvm-18/bin/llvm-cxxfilt
+│   │   ├── llvm-cxxmap-18 -> ../lib/llvm-18/bin/llvm-cxxmap
+│   │   ├── llvm-debuginfo-analyzer-18 -> ../lib/llvm-18/bin/llvm-debuginfo-analyzer
+│   │   ├── llvm-debuginfod-18 -> ../lib/llvm-18/bin/llvm-debuginfod
+│   │   ├── llvm-debuginfod-find-18 -> ../lib/llvm-18/bin/llvm-debuginfod-find
+│   │   ├── llvm-diff -> ../lib/llvm-18/bin/llvm-diff
+│   │   ├── llvm-diff-18 -> ../lib/llvm-18/bin/llvm-diff
+│   │   ├── llvm-dis -> ../lib/llvm-18/bin/llvm-dis
+│   │   ├── llvm-dis-18 -> ../lib/llvm-18/bin/llvm-dis
+│   │   ├── llvm-dlltool -> ../lib/llvm-18/bin/llvm-dlltool
+│   │   ├── llvm-dlltool-18 -> ../lib/llvm-18/bin/llvm-dlltool
+│   │   ├── llvm-dwarfdump -> ../lib/llvm-18/bin/llvm-dwarfdump
+│   │   ├── llvm-dwarfdump-18 -> ../lib/llvm-18/bin/llvm-dwarfdump
+│   │   ├── llvm-dwarfutil-18 -> ../lib/llvm-18/bin/llvm-dwarfutil
+│   │   ├── llvm-dwp -> ../lib/llvm-18/bin/llvm-dwp
+│   │   ├── llvm-dwp-18 -> ../lib/llvm-18/bin/llvm-dwp
+│   │   ├── llvm-exegesis -> ../lib/llvm-18/bin/llvm-exegesis
+│   │   ├── llvm-exegesis-18 -> ../lib/llvm-18/bin/llvm-exegesis
+│   │   ├── llvm-extract -> ../lib/llvm-18/bin/llvm-extract
+│   │   ├── llvm-extract-18 -> ../lib/llvm-18/bin/llvm-extract
+│   │   ├── llvm-gsymutil-18 -> ../lib/llvm-18/bin/llvm-gsymutil
+│   │   ├── llvm-ifs-18 -> ../lib/llvm-18/bin/llvm-ifs
+│   │   ├── llvm-install-name-tool-18 -> ../lib/llvm-18/bin/llvm-install-name-tool
+│   │   ├── llvm-jitlink-18 -> ../lib/llvm-18/bin/llvm-jitlink
+│   │   ├── llvm-jitlink-executor-18 -> ../lib/llvm-18/bin/llvm-jitlink-executor
+│   │   ├── llvm-lib -> ../lib/llvm-18/bin/llvm-lib
+│   │   ├── llvm-lib-18 -> ../lib/llvm-18/bin/llvm-lib
+│   │   ├── llvm-libtool-darwin-18 -> ../lib/llvm-18/bin/llvm-libtool-darwin
+│   │   ├── llvm-link -> ../lib/llvm-18/bin/llvm-link
+│   │   ├── llvm-link-18 -> ../lib/llvm-18/bin/llvm-link
+│   │   ├── llvm-lipo-18 -> ../lib/llvm-18/bin/llvm-lipo
+│   │   ├── llvm-lto -> ../lib/llvm-18/bin/llvm-lto
+│   │   ├── llvm-lto-18 -> ../lib/llvm-18/bin/llvm-lto
+│   │   ├── llvm-lto2 -> ../lib/llvm-18/bin/llvm-lto2
+│   │   ├── llvm-lto2-18 -> ../lib/llvm-18/bin/llvm-lto2
+│   │   ├── llvm-mc -> ../lib/llvm-18/bin/llvm-mc
+│   │   ├── llvm-mc-18 -> ../lib/llvm-18/bin/llvm-mc
+│   │   ├── llvm-mca -> ../lib/llvm-18/bin/llvm-mca
+│   │   ├── llvm-mca-18 -> ../lib/llvm-18/bin/llvm-mca
+│   │   ├── llvm-ml-18 -> ../lib/llvm-18/bin/llvm-ml
+│   │   ├── llvm-modextract -> ../lib/llvm-18/bin/llvm-modextract
+│   │   ├── llvm-modextract-18 -> ../lib/llvm-18/bin/llvm-modextract
+│   │   ├── llvm-mt -> ../lib/llvm-18/bin/llvm-mt
+│   │   ├── llvm-mt-18 -> ../lib/llvm-18/bin/llvm-mt
+│   │   ├── llvm-nm -> ../lib/llvm-18/bin/llvm-nm
+│   │   ├── llvm-nm-18 -> ../lib/llvm-18/bin/llvm-nm
+│   │   ├── llvm-objcopy -> ../lib/llvm-18/bin/llvm-objcopy
+│   │   ├── llvm-objcopy-18 -> ../lib/llvm-18/bin/llvm-objcopy
+│   │   ├── llvm-objdump -> ../lib/llvm-18/bin/llvm-objdump
+│   │   ├── llvm-objdump-18 -> ../lib/llvm-18/bin/llvm-objdump
+│   │   ├── llvm-opt-report -> ../lib/llvm-18/bin/llvm-opt-report
+│   │   ├── llvm-opt-report-18 -> ../lib/llvm-18/bin/llvm-opt-report
+│   │   ├── llvm-otool-18 -> ../lib/llvm-18/bin/llvm-otool
+│   │   ├── llvm-pdbutil -> ../lib/llvm-18/bin/llvm-pdbutil
+│   │   ├── llvm-pdbutil-18 -> ../lib/llvm-18/bin/llvm-pdbutil
+│   │   ├── llvm-profdata -> ../lib/llvm-18/bin/llvm-profdata
+│   │   ├── llvm-profdata-18 -> ../lib/llvm-18/bin/llvm-profdata
+│   │   ├── llvm-profgen-18 -> ../lib/llvm-18/bin/llvm-profgen
+│   │   ├── llvm-ranlib -> ../lib/llvm-18/bin/llvm-ranlib
+│   │   ├── llvm-ranlib-18 -> ../lib/llvm-18/bin/llvm-ranlib
+│   │   ├── llvm-rc -> ../lib/llvm-18/bin/llvm-rc
+│   │   ├── llvm-rc-18 -> ../lib/llvm-18/bin/llvm-rc
+│   │   ├── llvm-readelf -> ../lib/llvm-18/bin/llvm-readelf
+│   │   ├── llvm-readelf-18 -> ../lib/llvm-18/bin/llvm-readelf
+│   │   ├── llvm-readobj -> ../lib/llvm-18/bin/llvm-readobj
+│   │   ├── llvm-readobj-18 -> ../lib/llvm-18/bin/llvm-readobj
+│   │   ├── llvm-readtapi-18 -> ../lib/llvm-18/bin/llvm-readtapi
+│   │   ├── llvm-reduce -> ../lib/llvm-18/bin/llvm-reduce
+│   │   ├── llvm-reduce-18 -> ../lib/llvm-18/bin/llvm-reduce
+│   │   ├── llvm-remarkutil-18 -> ../lib/llvm-18/bin/llvm-remarkutil
+│   │   ├── llvm-rtdyld -> ../lib/llvm-18/bin/llvm-rtdyld
+│   │   ├── llvm-rtdyld-18 -> ../lib/llvm-18/bin/llvm-rtdyld
+│   │   ├── llvm-sim-18 -> ../lib/llvm-18/bin/llvm-sim
+│   │   ├── llvm-size -> ../lib/llvm-18/bin/llvm-size
+│   │   ├── llvm-size-18 -> ../lib/llvm-18/bin/llvm-size
+│   │   ├── llvm-split -> ../lib/llvm-18/bin/llvm-split
+│   │   ├── llvm-split-18 -> ../lib/llvm-18/bin/llvm-split
+│   │   ├── llvm-stress -> ../lib/llvm-18/bin/llvm-stress
+│   │   ├── llvm-stress-18 -> ../lib/llvm-18/bin/llvm-stress
+│   │   ├── llvm-strings -> ../lib/llvm-18/bin/llvm-strings
+│   │   ├── llvm-strings-18 -> ../lib/llvm-18/bin/llvm-strings
+│   │   ├── llvm-strip -> ../lib/llvm-18/bin/llvm-strip
+│   │   ├── llvm-strip-18 -> ../lib/llvm-18/bin/llvm-strip
+│   │   ├── llvm-symbolizer -> ../lib/llvm-18/bin/llvm-symbolizer
+│   │   ├── llvm-symbolizer-18 -> ../lib/llvm-18/bin/llvm-symbolizer
+│   │   ├── llvm-tblgen -> ../lib/llvm-18/bin/llvm-tblgen
+│   │   ├── llvm-tblgen-18 -> ../lib/llvm-18/bin/llvm-tblgen
+│   │   ├── llvm-tli-checker-18 -> ../lib/llvm-18/bin/llvm-tli-checker
+│   │   ├── llvm-undname -> ../lib/llvm-18/bin/llvm-undname
+│   │   ├── llvm-undname-18 -> ../lib/llvm-18/bin/llvm-undname
+│   │   ├── llvm-windres-18 -> ../lib/llvm-18/bin/llvm-windres
+│   │   ├── llvm-xray -> ../lib/llvm-18/bin/llvm-xray
+│   │   ├── llvm-xray-18 -> ../lib/llvm-18/bin/llvm-xray
+│   │   ├── ln
+│   │   ├── lnstat
+│   │   ├── locale
+│   │   ├── locale-check
+│   │   ├── localectl
+│   │   ├── localedef
+│   │   ├── logger
+│   │   ├── login
+│   │   ├── loginctl
+│   │   ├── logname
+│   │   ├── look
+│   │   ├── ls
+│   │   ├── lsattr
+│   │   ├── lsb_release
+│   │   ├── lsblk
+│   │   ├── lscpu
+│   │   ├── lsipc
+│   │   ├── lslocks
+│   │   ├── lslogins
+│   │   ├── lsmem
+│   │   ├── lsns
+│   │   ├── lsof
+│   │   ├── lspgpot
+│   │   ├── lto-dump -> lto-dump-13
+│   │   ├── lto-dump-13 -> x86_64-linux-gnu-lto-dump-13
+│   │   ├── lynx
+│   │   ├── lzcat -> /etc/alternatives/lzcat
+│   │   ├── lzcmp -> /etc/alternatives/lzcmp
+│   │   ├── lzdiff -> /etc/alternatives/lzdiff
+│   │   ├── lzegrep -> /etc/alternatives/lzegrep
+│   │   ├── lzfgrep -> /etc/alternatives/lzfgrep
+│   │   ├── lzgrep -> /etc/alternatives/lzgrep
+│   │   ├── lzless -> /etc/alternatives/lzless
+│   │   ├── lzma -> /etc/alternatives/lzma
+│   │   ├── lzmainfo
+│   │   ├── lzmore -> /etc/alternatives/lzmore
+│   │   ├── m4
+│   │   ├── make
+│   │   ├── make-first-existing-target
+│   │   ├── makeconv
+│   │   ├── man
+│   │   ├── man-recode
+│   │   ├── mandb
+│   │   ├── manpath
+│   │   ├── mawk
+│   │   ├── mcookie
+│   │   ├── md5sum
+│   │   ├── md5sum.textutils -> md5sum
+│   │   ├── mesg
+│   │   ├── migrate-pubring-from-classic-gpg
+│   │   ├── mispipe
+│   │   ├── mkdir
+│   │   ├── mkfifo
+│   │   ├── mknod
+│   │   ├── mktemp
+│   │   ├── more
+│   │   ├── mount
+│   │   ├── mountpoint
+│   │   ├── mpicalc
+│   │   ├── ms_print
+│   │   ├── msgattrib
+│   │   ├── msgcat
+│   │   ├── msgcmp
+│   │   ├── msgcomm
+│   │   ├── msgconv
+│   │   ├── msgen
+│   │   ├── msgexec
+│   │   ├── msgfilter
+│   │   ├── msgfmt
+│   │   ├── msggrep
+│   │   ├── msginit
+│   │   ├── msgmerge
+│   │   ├── msgunfmt
+│   │   ├── msguniq
+│   │   ├── mv
+│   │   ├── mysql_config
+│   │   ├── namei
+│   │   ├── nano
+│   │   ├── nawk -> /etc/alternatives/nawk
+│   │   ├── ncdu
+│   │   ├── ncurses6-config
+│   │   ├── ncursesw6-config
+│   │   ├── neqn
+│   │   ├── netstat
+│   │   ├── networkctl
+│   │   ├── newgrp
+│   │   ├── ngettext
+│   │   ├── nice
+│   │   ├── nisdomainname -> hostname
+│   │   ├── nl
+│   │   ├── nm -> x86_64-linux-gnu-nm
+│   │   ├── nohup
+│   │   ├── not-18 -> ../lib/llvm-18/bin/not
+│   │   ├── nproc
+│   │   ├── nroff
+│   │   ├── nsenter
+│   │   ├── nspr-config
+│   │   ├── nss-config
+│   │   ├── nstat
+│   │   ├── numfmt
+│   │   ├── obj2yaml -> ../lib/llvm-18/bin/obj2yaml
+│   │   ├── obj2yaml-18 -> ../lib/llvm-18/bin/obj2yaml
+│   │   ├── objcopy -> x86_64-linux-gnu-objcopy
+│   │   ├── objdump -> x86_64-linux-gnu-objdump
+│   │   ├── od
+│   │   ├── open -> /etc/alternatives/open
+│   │   ├── openssl
+│   │   ├── opt -> ../lib/llvm-18/bin/opt
+│   │   ├── opt-18 -> ../lib/llvm-18/bin/opt
+│   │   ├── pager -> /etc/alternatives/pager
+│   │   ├── parallel
+│   │   ├── partx
+│   │   ├── passwd
+│   │   ├── paste
+│   │   ├── patch
+│   │   ├── pathchk
+│   │   ├── pcre2-config
+│   │   ├── pdb3 -> pdb3.12
+│   │   ├── pdb3.12 -> ../lib/python3.12/pdb.py
+│   │   ├── pee
+│   │   ├── peekfd
+│   │   ├── perl
+│   │   ├── perl5.38-x86_64-linux-gnu
+│   │   ├── perl5.38.2
+│   │   ├── perlbug
+│   │   ├── perldoc
+│   │   ├── perlivp
+│   │   ├── perlthanks
+│   │   ├── pg_config
+│   │   ├── pgrep
+│   │   ├── pic
+│   │   ├── pico -> /etc/alternatives/pico
+│   │   ├── piconv
+│   │   ├── pidof -> ../sbin/killall5
+│   │   ├── pidwait
+│   │   ├── pigz
+│   │   ├── pinentry -> /etc/alternatives/pinentry
+│   │   ├── pinentry-curses
+│   │   ├── pinky
+│   │   ├── pip
+│   │   ├── pip3
+│   │   ├── pip3.12
+│   │   ├── pkaction
+│   │   ├── pkcheck
+│   │   ├── pkg-config -> pkgconf
+│   │   ├── pkgconf
+│   │   ├── pkgdata
+│   │   ├── pkill -> pgrep
+│   │   ├── pkttyagent
+│   │   ├── pl2pm
+│   │   ├── pldd
+│   │   ├── pmap
+│   │   ├── pod2html
+│   │   ├── pod2man
+│   │   ├── pod2text
+│   │   ├── pod2usage
+│   │   ├── podchecker
+│   │   ├── pr
+│   │   ├── preconv
+│   │   ├── print -> run-mailcap
+│   │   ├── printenv
+│   │   ├── printf
+│   │   ├── prlimit
+│   │   ├── prove
+│   │   ├── prtstat
+│   │   ├── ps
+│   │   ├── pslog
+│   │   ├── pstree
+│   │   ├── pstree.x11 -> pstree
+│   │   ├── ptar
+│   │   ├── ptardiff
+│   │   ├── ptargrep
+│   │   ├── ptx
+│   │   ├── pwd
+│   │   ├── pwdx
+│   │   ├── py3clean
+│   │   ├── py3compile
+│   │   ├── py3versions -> ../share/python3/py3versions.py
+│   │   ├── pydoc3 -> pydoc3.12
+│   │   ├── pydoc3.12
+│   │   ├── pygettext3 -> pygettext3.12
+│   │   ├── pygettext3.12
+│   │   ├── pygmentize
+│   │   ├── python3 -> python3.12
+│   │   ├── python3-config -> python3.12-config
+│   │   ├── python3.12
+│   │   ├── python3.12-config -> x86_64-linux-gnu-python3.12-config
+│   │   ├── ranlib -> x86_64-linux-gnu-ranlib
+│   │   ├── rbash -> bash
+│   │   ├── rdma
+│   │   ├── re2c
+│   │   ├── re2go
+│   │   ├── re2rust
+│   │   ├── readelf -> x86_64-linux-gnu-readelf
+│   │   ├── readlink
+│   │   ├── realpath
+│   │   ├── recode-sr-latin
+│   │   ├── rename.ul
+│   │   ├── renice
+│   │   ├── reset -> tset
+│   │   ├── resizepart
+│   │   ├── rev
+│   │   ├── rgrep
+│   │   ├── rm
+│   │   ├── rmdir
+│   │   ├── rnano -> nano
+│   │   ├── routel
+│   │   ├── rpcgen
+│   │   ├── rrsync
+│   │   ├── rsync
+│   │   ├── rsync-ssl
+│   │   ├── rtstat -> lnstat
+│   │   ├── run-mailcap
+│   │   ├── run-parts
+│   │   ├── runc
+│   │   ├── runcon
+│   │   ├── rview -> /etc/alternatives/rview
+│   │   ├── rvim -> /etc/alternatives/rvim
+│   │   ├── rzsh -> zsh
+│   │   ├── sanstats -> ../lib/llvm-18/bin/sanstats
+│   │   ├── sanstats-18 -> ../lib/llvm-18/bin/sanstats
+│   │   ├── savelog
+│   │   ├── scalar
+│   │   ├── scp
+│   │   ├── script
+│   │   ├── scriptlive
+│   │   ├── scriptreplay
+│   │   ├── sdiff
+│   │   ├── sed
+│   │   ├── see -> run-mailcap
+│   │   ├── select-editor
+│   │   ├── sensible-browser
+│   │   ├── sensible-editor
+│   │   ├── sensible-pager
+│   │   ├── sensible-terminal
+│   │   ├── seq
+│   │   ├── setarch
+│   │   ├── setpriv
+│   │   ├── setsid
+│   │   ├── setterm
+│   │   ├── sftp
+│   │   ├── sg -> newgrp
+│   │   ├── sh -> dash
+│   │   ├── sha1sum
+│   │   ├── sha224sum
+│   │   ├── sha256sum
+│   │   ├── sha384sum
+│   │   ├── sha512sum
+│   │   ├── shasum
+│   │   ├── shred
+│   │   ├── shuf
+│   │   ├── size -> x86_64-linux-gnu-size
+│   │   ├── skill
+│   │   ├── slabtop
+│   │   ├── sleep
+│   │   ├── slogin -> ssh
+│   │   ├── snice -> skill
+│   │   ├── soelim
+│   │   ├── sort
+│   │   ├── splain
+│   │   ├── split
+│   │   ├── split-file-18 -> ../lib/llvm-18/bin/split-file
+│   │   ├── sponge
+│   │   ├── sqlite3
+│   │   ├── ss
+│   │   ├── ssh
+│   │   ├── ssh-add
+│   │   ├── ssh-agent
+│   │   ├── ssh-argv0
+│   │   ├── ssh-copy-id
+│   │   ├── ssh-keygen
+│   │   ├── ssh-keyscan
+│   │   ├── stat
+│   │   ├── stdbuf
+│   │   ├── strace
+│   │   ├── strace-log-merge
+│   │   ├── streamzip
+│   │   ├── strings -> x86_64-linux-gnu-strings
+│   │   ├── strip -> x86_64-linux-gnu-strip
+│   │   ├── stty
+│   │   ├── su
+│   │   ├── sudo
+│   │   ├── sudoedit -> sudo
+│   │   ├── sudoreplay
+│   │   ├── sum
+│   │   ├── swig3.0
+│   │   ├── sync
+│   │   ├── systemctl
+│   │   ├── systemd -> ../lib/systemd/systemd
+│   │   ├── systemd-ac-power
+│   │   ├── systemd-analyze
+│   │   ├── systemd-ask-password
+│   │   ├── systemd-cat
+│   │   ├── systemd-cgls
+│   │   ├── systemd-cgtop
+│   │   ├── systemd-confext -> systemd-sysext
+│   │   ├── systemd-creds
+│   │   ├── systemd-cryptenroll
+│   │   ├── systemd-cryptsetup
+│   │   ├── systemd-delta
+│   │   ├── systemd-detect-virt
+│   │   ├── systemd-escape
+│   │   ├── systemd-firstboot
+│   │   ├── systemd-id128
+│   │   ├── systemd-inhibit
+│   │   ├── systemd-machine-id-setup
+│   │   ├── systemd-mount
+│   │   ├── systemd-notify
+│   │   ├── systemd-path
+│   │   ├── systemd-repart
+│   │   ├── systemd-run
+│   │   ├── systemd-socket-activate
+│   │   ├── systemd-stdio-bridge
+│   │   ├── systemd-sysext
+│   │   ├── systemd-sysusers
+│   │   ├── systemd-tmpfiles
+│   │   ├── systemd-tty-ask-password-agent
+│   │   ├── systemd-umount -> systemd-mount
+│   │   ├── tabs
+│   │   ├── tac
+│   │   ├── tail
+│   │   ├── tar
+│   │   ├── taskset
+│   │   ├── tbl
+│   │   ├── tclsh -> tclsh8.6
+│   │   ├── tclsh8.6
+│   │   ├── tcltk-depends
+│   │   ├── tee
+│   │   ├── tempfile
+│   │   ├── test
+│   │   ├── tic
+│   │   ├── timedatectl
+│   │   ├── timeout
+│   │   ├── tload
+│   │   ├── toe
+│   │   ├── top
+│   │   ├── touch
+│   │   ├── tput
+│   │   ├── tr
+│   │   ├── tree
+│   │   ├── troff
+│   │   ├── true
+│   │   ├── truncate
+│   │   ├── ts
+│   │   ├── tset
+│   │   ├── tsort
+│   │   ├── tty
+│   │   ├── tzselect
+│   │   ├── ucf
+│   │   ├── ucfq
+│   │   ├── ucfr
+│   │   ├── uclampset
+│   │   ├── uconv
+│   │   ├── ul
+│   │   ├── umount
+│   │   ├── uname
+│   │   ├── uncompress
+│   │   ├── unexpand
+│   │   ├── uniq
+│   │   ├── unlink
+│   │   ├── unlzma -> /etc/alternatives/unlzma
+│   │   ├── unminimize
+│   │   ├── unpigz
+│   │   ├── unshare
+│   │   ├── unxz -> xz
+│   │   ├── unzip
+│   │   ├── unzipsfx
+│   │   ├── update-alternatives
+│   │   ├── uptime
+│   │   ├── users
+│   │   ├── utmpdump
+│   │   ├── valgrind
+│   │   ├── valgrind-di-server
+│   │   ├── valgrind-listener
+│   │   ├── valgrind.bin
+│   │   ├── varlinkctl
+│   │   ├── vdir
+│   │   ├── verify-uselistorder -> ../lib/llvm-18/bin/verify-uselistorder
+│   │   ├── verify-uselistorder-18 -> ../lib/llvm-18/bin/verify-uselistorder
+│   │   ├── vgdb
+│   │   ├── vi -> /etc/alternatives/vi
+│   │   ├── vidir
+│   │   ├── view -> /etc/alternatives/view
+│   │   ├── vim -> /etc/alternatives/vim
+│   │   ├── vim.basic
+│   │   ├── vim.tiny
+│   │   ├── vimdiff -> /etc/alternatives/vimdiff
+│   │   ├── vimtutor
+│   │   ├── vipe
+│   │   ├── vmstat
+│   │   ├── w
+│   │   ├── wall
+│   │   ├── watch
+│   │   ├── watchgnupg
+│   │   ├── wc
+│   │   ├── wdctl
+│   │   ├── wget
+│   │   ├── whatis
+│   │   ├── whereis
+│   │   ├── which -> /etc/alternatives/which
+│   │   ├── which.debianutils
+│   │   ├── who
+│   │   ├── whoami
+│   │   ├── wish -> wish8.6
+│   │   ├── wish8.6
+│   │   ├── write
+│   │   ├── www-browser -> /etc/alternatives/www-browser
+│   │   ├── x86_64 -> setarch
+│   │   ├── x86_64-linux-gnu-addr2line
+│   │   ├── x86_64-linux-gnu-ar
+│   │   ├── x86_64-linux-gnu-as
+│   │   ├── x86_64-linux-gnu-c++filt
+│   │   ├── x86_64-linux-gnu-cpp -> x86_64-linux-gnu-cpp-13
+│   │   ├── x86_64-linux-gnu-cpp-13
+│   │   ├── x86_64-linux-gnu-dwp
+│   │   ├── x86_64-linux-gnu-elfedit
+│   │   ├── x86_64-linux-gnu-g++ -> x86_64-linux-gnu-g++-13
+│   │   ├── x86_64-linux-gnu-g++-13
+│   │   ├── x86_64-linux-gnu-gcc -> x86_64-linux-gnu-gcc-13
+│   │   ├── x86_64-linux-gnu-gcc-13
+│   │   ├── x86_64-linux-gnu-gcc-ar -> x86_64-linux-gnu-gcc-ar-13
+│   │   ├── x86_64-linux-gnu-gcc-ar-13
+│   │   ├── x86_64-linux-gnu-gcc-nm -> x86_64-linux-gnu-gcc-nm-13
+│   │   ├── x86_64-linux-gnu-gcc-nm-13
+│   │   ├── x86_64-linux-gnu-gcc-ranlib -> x86_64-linux-gnu-gcc-ranlib-13
+│   │   ├── x86_64-linux-gnu-gcc-ranlib-13
+│   │   ├── x86_64-linux-gnu-gcov -> x86_64-linux-gnu-gcov-13
+│   │   ├── x86_64-linux-gnu-gcov-13
+│   │   ├── x86_64-linux-gnu-gcov-dump -> x86_64-linux-gnu-gcov-dump-13
+│   │   ├── x86_64-linux-gnu-gcov-dump-13
+│   │   ├── x86_64-linux-gnu-gcov-tool -> x86_64-linux-gnu-gcov-tool-13
+│   │   ├── x86_64-linux-gnu-gcov-tool-13
+│   │   ├── x86_64-linux-gnu-gi-compile-repository
+│   │   ├── x86_64-linux-gnu-gi-decompile-typelib
+│   │   ├── x86_64-linux-gnu-gi-inspect-typelib
+│   │   ├── x86_64-linux-gnu-gold -> x86_64-linux-gnu-ld.gold
+│   │   ├── x86_64-linux-gnu-gp-archive
+│   │   ├── x86_64-linux-gnu-gp-collect-app
+│   │   ├── x86_64-linux-gnu-gp-display-html
+│   │   ├── x86_64-linux-gnu-gp-display-src
+│   │   ├── x86_64-linux-gnu-gp-display-text
+│   │   ├── x86_64-linux-gnu-gprof
+│   │   ├── x86_64-linux-gnu-gprofng
+│   │   ├── x86_64-linux-gnu-ld -> x86_64-linux-gnu-ld.bfd
+│   │   ├── x86_64-linux-gnu-ld.bfd
+│   │   ├── x86_64-linux-gnu-ld.gold
+│   │   ├── x86_64-linux-gnu-lto-dump -> x86_64-linux-gnu-lto-dump-13
+│   │   ├── x86_64-linux-gnu-lto-dump-13
+│   │   ├── x86_64-linux-gnu-nm
+│   │   ├── x86_64-linux-gnu-objcopy
+│   │   ├── x86_64-linux-gnu-objdump
+│   │   ├── x86_64-linux-gnu-pkg-config -> pkgconf
+│   │   ├── x86_64-linux-gnu-pkgconf -> pkgconf
+│   │   ├── x86_64-linux-gnu-python3-config -> x86_64-linux-gnu-python3.12-config
+│   │   ├── x86_64-linux-gnu-python3.12-config
+│   │   ├── x86_64-linux-gnu-ranlib
+│   │   ├── x86_64-linux-gnu-readelf
+│   │   ├── x86_64-linux-gnu-size
+│   │   ├── x86_64-linux-gnu-strings
+│   │   ├── x86_64-linux-gnu-strip
+│   │   ├── xargs
+│   │   ├── xgettext
+│   │   ├── xml2-config
+│   │   ├── xmlsec1-config
+│   │   ├── xsel
+│   │   ├── xslt-config
+│   │   ├── xsubpp
+│   │   ├── xtail
+│   │   ├── xxd
+│   │   ├── xz
+│   │   ├── xzcat -> xz
+│   │   ├── xzcmp -> xzdiff
+│   │   ├── xzdiff
+│   │   ├── xzegrep -> xzgrep
+│   │   ├── xzfgrep -> xzgrep
+│   │   ├── xzgrep
+│   │   ├── xzless
+│   │   ├── xzmore
+│   │   ├── yacc -> /etc/alternatives/yacc
+│   │   ├── yaml-bench-18 -> ../lib/llvm-18/bin/yaml-bench
+│   │   ├── yaml2obj -> ../lib/llvm-18/bin/yaml2obj
+│   │   ├── yaml2obj-18 -> ../lib/llvm-18/bin/yaml2obj
+│   │   ├── yarn -> ../share/yarn/bin/yarn
+│   │   ├── yarnpkg -> ../share/yarn/bin/yarn
+│   │   ├── yes
+│   │   ├── ypdomainname -> hostname
+│   │   ├── zcat
+│   │   ├── zcmp
+│   │   ├── zdiff
+│   │   ├── zdump
+│   │   ├── zegrep
+│   │   ├── zfgrep
+│   │   ├── zforce
+│   │   ├── zgrep
+│   │   ├── zip
+│   │   ├── zipcloak
+│   │   ├── zipdetails
+│   │   ├── zipgrep
+│   │   ├── zipinfo
+│   │   ├── zipnote
+│   │   ├── zipsplit
+│   │   ├── zless
+│   │   ├── zmore
+│   │   ├── znew
+│   │   ├── zrun
+│   │   ├── zsh
+│   │   └── zsh5
+│   ├── games
+│   ├── include
+│   │   ├── GL
+│   │   ├── X11
+│   │   ├── aio.h
+│   │   ├── aliases.h
+│   │   ├── alloca.h
+│   │   ├── ar.h
+│   │   ├── argon2.h
+│   │   ├── argp.h
+│   │   ├── argz.h
+│   │   ├── arpa
+│   │   ├── asm-generic
+│   │   ├── assert.h
+│   │   ├── blkid
+│   │   ├── brotli
+│   │   ├── byteswap.h
+│   │   ├── bzlib.h
+│   │   ├── c++
+│   │   ├── clang
+│   │   ├── complex.h
+│   │   ├── cpio.h
+│   │   ├── crypt.h
+│   │   ├── ctype.h
+│   │   ├── curses.h
+│   │   ├── cursesapp.h
+│   │   ├── cursesf.h
+│   │   ├── cursesm.h
+│   │   ├── cursesp.h
+│   │   ├── cursesw.h
+│   │   ├── cursslk.h
+│   │   ├── dialog.h
+│   │   ├── dirent.h
+│   │   ├── dlfcn.h
+│   │   ├── dlg_colors.h
+│   │   ├── dlg_config.h
+│   │   ├── dlg_keys.h
+│   │   ├── drm
+│   │   ├── editline
+│   │   ├── elf.h
+│   │   ├── endian.h
+│   │   ├── envz.h
+│   │   ├── err.h
+│   │   ├── errno.h
+│   │   ├── error.h
+│   │   ├── eti.h
+│   │   ├── etip.h
+│   │   ├── execinfo.h
+│   │   ├── expat.h
+│   │   ├── expat_external.h
+│   │   ├── fcntl.h
+│   │   ├── features-time64.h
+│   │   ├── features.h
+│   │   ├── fenv.h
+│   │   ├── finclude
+│   │   ├── fmtmsg.h
+│   │   ├── fnmatch.h
+│   │   ├── fontconfig
+│   │   ├── form.h
+│   │   ├── freetype2
+│   │   ├── fstab.h
+│   │   ├── fts.h
+│   │   ├── ftw.h
+│   │   ├── gawkapi.h
+│   │   ├── gconv.h
+│   │   ├── gcrypt.h
+│   │   ├── gdb
+│   │   ├── gdbm.h
+│   │   ├── getopt.h
+│   │   ├── gio-unix-2.0
+│   │   ├── glib-2.0
+│   │   ├── glob.h
+│   │   ├── gmpxx.h
+│   │   ├── gnu-versions.h
+│   │   ├── gnumake.h
+│   │   ├── gnutls
+│   │   ├── grp.h
+│   │   ├── gshadow.h
+│   │   ├── histedit.h
+│   │   ├── iconv.h
+│   │   ├── idn2.h
+│   │   ├── ifaddrs.h
+│   │   ├── inttypes.h
+│   │   ├── iproute2
+│   │   ├── langinfo.h
+│   │   ├── lastlog.h
+│   │   ├── libexslt
+│   │   ├── libgen.h
+│   │   ├── libintl.h
+│   │   ├── libmount
+│   │   ├── libpng -> libpng16
+│   │   ├── libpng16
+│   │   ├── libsecret-1
+│   │   ├── libtasn1.h
+│   │   ├── libxml2
+│   │   ├── libxslt
+│   │   ├── limits.h
+│   │   ├── link.h
+│   │   ├── linux
+│   │   ├── llvm-18
+│   │   ├── llvm-c-18
+│   │   ├── locale.h
+│   │   ├── lzma
+│   │   ├── lzma.h
+│   │   ├── malloc.h
+│   │   ├── math.h
+│   │   ├── mcheck.h
+│   │   ├── md2.h
+│   │   ├── md4.h
+│   │   ├── md5.h
+│   │   ├── memory.h
+│   │   ├── menu.h
+│   │   ├── misc
+│   │   ├── mntent.h
+│   │   ├── monetary.h
+│   │   ├── mqueue.h
+│   │   ├── mtd
+│   │   ├── mysql
+│   │   ├── ncurses.h -> curses.h
+│   │   ├── ncurses_dll.h
+│   │   ├── ncursesw
+│   │   ├── net
+│   │   ├── netash
+│   │   ├── netatalk
+│   │   ├── netax25
+│   │   ├── netdb.h
+│   │   ├── neteconet
+│   │   ├── netinet
+│   │   ├── netipx
+│   │   ├── netiucv
+│   │   ├── netpacket
+│   │   ├── netrom
+│   │   ├── netrose
+│   │   ├── nettle
+│   │   ├── nfs
+│   │   ├── nl_types.h
+│   │   ├── nspr
+│   │   ├── nss
+│   │   ├── nss.h
+│   │   ├── obstack.h
+│   │   ├── odbcinst.h
+│   │   ├── odbcinstext.h
+│   │   ├── oniggnu.h
+│   │   ├── onigposix.h
+│   │   ├── oniguruma.h
+│   │   ├── openssl
+│   │   ├── p11-kit-1
+│   │   ├── panel.h
+│   │   ├── paths.h
+│   │   ├── pcre2.h
+│   │   ├── pcre2posix.h
+│   │   ├── png.h -> libpng16/png.h
+│   │   ├── pngconf.h -> libpng16/pngconf.h
+│   │   ├── pnglibconf.h -> libpng16/pnglibconf.h
+│   │   ├── poll.h
+│   │   ├── postgresql
+│   │   ├── printf.h
+│   │   ├── proc_service.h
+│   │   ├── protocols
+│   │   ├── pthread.h
+│   │   ├── pty.h
+│   │   ├── pwd.h
+│   │   ├── python3.12
+│   │   ├── rdma
+│   │   ├── re_comp.h
+│   │   ├── readline
+│   │   ├── regex.h
+│   │   ├── regexp.h
+│   │   ├── regulator
+│   │   ├── resolv.h
+│   │   ├── ripemd.h
+│   │   ├── rmd160.h
+│   │   ├── rpc
+│   │   ├── rpcsvc
+│   │   ├── sched.h
+│   │   ├── scsi
+│   │   ├── search.h
+│   │   ├── selinux
+│   │   ├── semaphore.h
+│   │   ├── sepol
+│   │   ├── setjmp.h
+│   │   ├── sgtty.h
+│   │   ├── sha.h
+│   │   ├── sha1.h
+│   │   ├── sha2.h
+│   │   ├── sha256.h
+│   │   ├── sha512.h
+│   │   ├── shadow.h
+│   │   ├── signal.h
+│   │   ├── sodium
+│   │   ├── sodium.h
+│   │   ├── sound
+│   │   ├── spawn.h
+│   │   ├── sql.h
+│   │   ├── sqlext.h
+│   │   ├── sqlite3.h
+│   │   ├── sqlite3ext.h
+│   │   ├── sqlspi.h
+│   │   ├── sqltypes.h
+│   │   ├── sqlucode.h
+│   │   ├── stab.h
+│   │   ├── stdbit.h
+│   │   ├── stdc-predef.h
+│   │   ├── stdint.h
+│   │   ├── stdio.h
+│   │   ├── stdio_ext.h
+│   │   ├── stdlib.h
+│   │   ├── string.h
+│   │   ├── strings.h
+│   │   ├── sudo_plugin.h
+│   │   ├── syscall.h
+│   │   ├── sysexits.h
+│   │   ├── syslog.h
+│   │   ├── tar.h
+│   │   ├── tcl -> tcl8.6
+│   │   ├── tcl8.6
+│   │   ├── term.h
+│   │   ├── term_entry.h
+│   │   ├── termcap.h
+│   │   ├── termio.h
+│   │   ├── termios.h
+│   │   ├── tgmath.h
+│   │   ├── thread_db.h
+│   │   ├── threads.h
+│   │   ├── time.h
+│   │   ├── tk -> tcl8.6
+│   │   ├── ttyent.h
+│   │   ├── uchar.h
+│   │   ├── ucontext.h
+│   │   ├── ulimit.h
+│   │   ├── unctrl.h
+│   │   ├── unicode
+│   │   ├── unistd.h
+│   │   ├── uodbc_extras.h
+│   │   ├── uodbc_stats.h
+│   │   ├── utime.h
+│   │   ├── utmp.h
+│   │   ├── utmpx.h
+│   │   ├── uuid
+│   │   ├── valgrind
+│   │   ├── values.h
+│   │   ├── video
+│   │   ├── wait.h
+│   │   ├── wchar.h
+│   │   ├── wctype.h
+│   │   ├── wordexp.h
+│   │   ├── x86_64-linux-gnu
+│   │   ├── xcb
+│   │   ├── xen
+│   │   ├── xmlsec1
+│   │   ├── yaml.h
+│   │   ├── z3++.h
+│   │   ├── z3.h
+│   │   ├── z3_algebraic.h
+│   │   ├── z3_api.h
+│   │   ├── z3_ast_containers.h
+│   │   ├── z3_fixedpoint.h
+│   │   ├── z3_fpa.h
+│   │   ├── z3_macros.h
+│   │   ├── z3_optimization.h
+│   │   ├── z3_polynomial.h
+│   │   ├── z3_rcf.h
+│   │   ├── z3_spacer.h
+│   │   ├── z3_v1.h
+│   │   ├── z3_version.h
+│   │   ├── zconf.h
+│   │   ├── zdict.h
+│   │   ├── zlib.h
+│   │   ├── zstd.h
+│   │   └── zstd_errors.h
+│   ├── lib
+│   │   ├── X11
+│   │   ├── apt
+│   │   ├── bfd-plugins
+│   │   ├── binfmt.d
+│   │   ├── clang
+│   │   ├── cmake
+│   │   ├── compat-ld
+│   │   ├── cpp -> /etc/alternatives/cpp
+│   │   ├── dbus-1.0
+│   │   ├── debug
+│   │   ├── dpkg
+│   │   ├── environment.d
+│   │   ├── file
+│   │   ├── gcc
+│   │   ├── girepository-1.0
+│   │   ├── git-core
+│   │   ├── gnupg
+│   │   ├── gnupg2
+│   │   ├── gold-ld
+│   │   ├── groff
+│   │   ├── init
+│   │   ├── kernel
+│   │   ├── ld-linux.so.2 -> ../lib32/ld-linux.so.2
+│   │   ├── libgdiplus.so -> libgdiplus.so.0.0.0
+│   │   ├── libgdiplus.so.0 -> libgdiplus.so.0.0.0
+│   │   ├── libgdiplus.so.0.0.0
+│   │   ├── llvm-18
+│   │   ├── locale
+│   │   ├── lsb
+│   │   ├── man-db
+│   │   ├── mime
+│   │   ├── modprobe.d
+│   │   ├── openssh
+│   │   ├── os-release
+│   │   ├── pam.d
+│   │   ├── pcrlock.d
+│   │   ├── pkgconfig
+│   │   ├── policykit-1
+│   │   ├── polkit-1
+│   │   ├── python3
+│   │   ├── python3.12
+│   │   ├── sasl2
+│   │   ├── sftp-server -> openssh/sftp-server
+│   │   ├── software-properties
+│   │   ├── ssl
+│   │   ├── sysctl.d
+│   │   ├── systemd
+│   │   ├── sysusers.d
+│   │   ├── tcl8.6
+│   │   ├── tclConfig.sh -> tcl8.6/tclConfig.sh
+│   │   ├── tclooConfig.sh -> tcl8.6/tclooConfig.sh
+│   │   ├── tcltk
+│   │   ├── tk8.6
+│   │   ├── tkConfig.sh -> tk8.6/tkConfig.sh
+│   │   ├── tmpfiles.d
+│   │   ├── udev
+│   │   ├── valgrind
+│   │   └── x86_64-linux-gnu
+│   ├── lib32
+│   │   ├── gconv
+│   │   ├── ld-linux.so.2
+│   │   ├── libBrokenLocale.so.1
+│   │   ├── libanl.so.1
+│   │   ├── libc.so.6
+│   │   ├── libc_malloc_debug.so.0
+│   │   ├── libdl.so.2
+│   │   ├── libgcc_s.so.1
+│   │   ├── libm.so.6
+│   │   ├── libmemusage.so
+│   │   ├── libnsl.so.1
+│   │   ├── libnss_compat.so.2
+│   │   ├── libnss_dns.so.2
+│   │   ├── libnss_files.so.2
+│   │   ├── libnss_hesiod.so.2
+│   │   ├── libpcprofile.so
+│   │   ├── libpthread.so.0
+│   │   ├── libresolv.so.2
+│   │   ├── librt.so.1
+│   │   ├── libstdc++.so.6 -> libstdc++.so.6.0.33
+│   │   ├── libstdc++.so.6.0.33
+│   │   ├── libthread_db.so.1
+│   │   └── libutil.so.1
+│   ├── lib64
+│   │   └── ld-linux-x86-64.so.2 -> ../lib/x86_64-linux-gnu/ld-linux-x86-64.so.2
+│   ├── libexec
+│   │   ├── coreutils
+│   │   ├── docker
+│   │   ├── dpkg
+│   │   ├── gcc
+│   │   ├── man-db
+│   │   ├── packagekit-direct
+│   │   ├── packagekitd
+│   │   ├── pk-debconf-helper
+│   │   ├── pk-offline-update
+│   │   ├── polkit-agent-helper-1 -> ../lib/polkit-1/polkit-agent-helper-1
+│   │   ├── sudo
+│   │   └── valgrind
+│   ├── local
+│   │   ├── bin
+│   │   ├── buildscriptgen
+│   │   ├── etc
+│   │   ├── games
+│   │   ├── go
+│   │   ├── hugo
+│   │   ├── include
+│   │   ├── jupyter -> /home/codespace/.local/bin
+│   │   ├── lib
+│   │   ├── libexec
+│   │   ├── man -> share/man
+│   │   ├── nvs
+│   │   ├── oryx
+│   │   ├── php
+│   │   ├── py-utils
+│   │   ├── python
+│   │   ├── rvm
+│   │   ├── sbin
+│   │   ├── sdkman
+│   │   ├── share
+│   │   └── src
+│   ├── sbin
+│   │   ├── accessdb
+│   │   ├── add-shell
+│   │   ├── addgnupghome
+│   │   ├── addgroup -> adduser
+│   │   ├── adduser
+│   │   ├── agetty
+│   │   ├── applygnupgdefaults
+│   │   ├── arp
+│   │   ├── arpd
+│   │   ├── arptables -> /etc/alternatives/arptables
+│   │   ├── arptables-nft -> xtables-nft-multi
+│   │   ├── arptables-nft-restore -> xtables-nft-multi
+│   │   ├── arptables-nft-save -> xtables-nft-multi
+│   │   ├── arptables-restore -> /etc/alternatives/arptables-restore
+│   │   ├── arptables-save -> /etc/alternatives/arptables-save
+│   │   ├── badblocks
+│   │   ├── blkdiscard
+│   │   ├── blkid
+│   │   ├── blkzone
+│   │   ├── blockdev
+│   │   ├── bridge
+│   │   ├── capsh
+│   │   ├── chcpu
+│   │   ├── chgpasswd
+│   │   ├── chmem
+│   │   ├── chpasswd
+│   │   ├── chroot
+│   │   ├── cpgr -> cppw
+│   │   ├── cppw
+│   │   ├── ctrlaltdel
+│   │   ├── dcb
+│   │   ├── debugfs
+│   │   ├── delgroup -> deluser
+│   │   ├── deluser
+│   │   ├── devlink
+│   │   ├── docker-init
+│   │   ├── dpkg-preconfigure
+│   │   ├── dpkg-reconfigure
+│   │   ├── dumpe2fs
+│   │   ├── e2freefrag
+│   │   ├── e2fsck
+│   │   ├── e2image
+│   │   ├── e2label -> tune2fs
+│   │   ├── e2mmpstatus -> dumpe2fs
+│   │   ├── e2scrub
+│   │   ├── e2scrub_all
+│   │   ├── e2undo
+│   │   ├── e4crypt
+│   │   ├── e4defrag
+│   │   ├── ebtables -> /etc/alternatives/ebtables
+│   │   ├── ebtables-nft -> xtables-nft-multi
+│   │   ├── ebtables-nft-restore -> xtables-nft-multi
+│   │   ├── ebtables-nft-save -> xtables-nft-multi
+│   │   ├── ebtables-restore -> /etc/alternatives/ebtables-restore
+│   │   ├── ebtables-save -> /etc/alternatives/ebtables-save
+│   │   ├── ebtables-translate -> xtables-nft-multi
+│   │   ├── escapesrc
+│   │   ├── faillock
+│   │   ├── filefrag
+│   │   ├── findfs
+│   │   ├── fsck
+│   │   ├── fsck.cramfs
+│   │   ├── fsck.ext2 -> e2fsck
+│   │   ├── fsck.ext3 -> e2fsck
+│   │   ├── fsck.ext4 -> e2fsck
+│   │   ├── fsck.minix
+│   │   ├── fsfreeze
+│   │   ├── fstab-decode
+│   │   ├── fstrim
+│   │   ├── genccode
+│   │   ├── gencmn
+│   │   ├── genl
+│   │   ├── gennorm2
+│   │   ├── gensprep
+│   │   ├── getcap
+│   │   ├── getpcaps
+│   │   ├── getty -> agetty
+│   │   ├── groupadd
+│   │   ├── groupdel
+│   │   ├── groupmems
+│   │   ├── groupmod
+│   │   ├── grpck
+│   │   ├── grpconv
+│   │   ├── grpunconv
+│   │   ├── halt -> ../bin/systemctl
+│   │   ├── iconvconfig
+│   │   ├── icupkg
+│   │   ├── ifconfig
+│   │   ├── init -> ../lib/systemd/systemd
+│   │   ├── initctl
+│   │   ├── install-sgmlcatalog
+│   │   ├── installkernel
+│   │   ├── invoke-rc.d
+│   │   ├── ip -> /bin/ip
+│   │   ├── ip6tables -> /etc/alternatives/ip6tables
+│   │   ├── ip6tables-apply -> iptables-apply
+│   │   ├── ip6tables-legacy -> xtables-legacy-multi
+│   │   ├── ip6tables-legacy-restore -> xtables-legacy-multi
+│   │   ├── ip6tables-legacy-save -> xtables-legacy-multi
+│   │   ├── ip6tables-nft -> xtables-nft-multi
+│   │   ├── ip6tables-nft-restore -> xtables-nft-multi
+│   │   ├── ip6tables-nft-save -> xtables-nft-multi
+│   │   ├── ip6tables-restore -> /etc/alternatives/ip6tables-restore
+│   │   ├── ip6tables-restore-translate -> xtables-nft-multi
+│   │   ├── ip6tables-save -> /etc/alternatives/ip6tables-save
+│   │   ├── ip6tables-translate -> xtables-nft-multi
+│   │   ├── ipmaddr
+│   │   ├── iptables -> /etc/alternatives/iptables
+│   │   ├── iptables-apply
+│   │   ├── iptables-legacy -> xtables-legacy-multi
+│   │   ├── iptables-legacy-restore -> xtables-legacy-multi
+│   │   ├── iptables-legacy-save -> xtables-legacy-multi
+│   │   ├── iptables-nft -> xtables-nft-multi
+│   │   ├── iptables-nft-restore -> xtables-nft-multi
+│   │   ├── iptables-nft-save -> xtables-nft-multi
+│   │   ├── iptables-restore -> /etc/alternatives/iptables-restore
+│   │   ├── iptables-restore-translate -> xtables-nft-multi
+│   │   ├── iptables-save -> /etc/alternatives/iptables-save
+│   │   ├── iptables-translate -> xtables-nft-multi
+│   │   ├── iptunnel
+│   │   ├── isosize
+│   │   ├── killall5
+│   │   ├── ldattach
+│   │   ├── ldconfig
+│   │   ├── ldconfig.real
+│   │   ├── locale-gen
+│   │   ├── logsave
+│   │   ├── losetup
+│   │   ├── mii-tool
+│   │   ├── mke2fs
+│   │   ├── mkfs
+│   │   ├── mkfs.bfs
+│   │   ├── mkfs.cramfs
+│   │   ├── mkfs.ext2 -> mke2fs
+│   │   ├── mkfs.ext3 -> mke2fs
+│   │   ├── mkfs.ext4 -> mke2fs
+│   │   ├── mkfs.minix
+│   │   ├── mkhomedir_helper
+│   │   ├── mklost+found
+│   │   ├── mkswap
+│   │   ├── nameif
+│   │   ├── newusers
+│   │   ├── nfnl_osf
+│   │   ├── nologin
+│   │   ├── pam-auth-update
+│   │   ├── pam_extrausers_chkpwd
+│   │   ├── pam_extrausers_update
+│   │   ├── pam_getenv
+│   │   ├── pam_namespace_helper
+│   │   ├── pam_timestamp_check
+│   │   ├── pivot_root
+│   │   ├── plipconfig
+│   │   ├── policy-rc.d
+│   │   ├── poweroff -> ../bin/systemctl
+│   │   ├── pwck
+│   │   ├── pwconv
+│   │   ├── pwhistory_helper
+│   │   ├── pwunconv
+│   │   ├── rarp
+│   │   ├── readprofile
+│   │   ├── reboot -> ../bin/systemctl
+│   │   ├── remove-shell
+│   │   ├── resize2fs
+│   │   ├── rmt -> /etc/alternatives/rmt
+│   │   ├── rmt-tar
+│   │   ├── route
+│   │   ├── rtacct
+│   │   ├── rtcwake
+│   │   ├── rtmon
+│   │   ├── runlevel -> ../bin/systemctl
+│   │   ├── runuser
+│   │   ├── service
+│   │   ├── setcap
+│   │   ├── shadowconfig
+│   │   ├── shutdown -> ../bin/systemctl
+│   │   ├── slattach
+│   │   ├── sshd
+│   │   ├── start-stop-daemon
+│   │   ├── sudo_logsrvd
+│   │   ├── sudo_sendlog
+│   │   ├── sulogin
+│   │   ├── swaplabel
+│   │   ├── swapoff
+│   │   ├── swapon
+│   │   ├── switch_root
+│   │   ├── sysctl
+│   │   ├── tarcat
+│   │   ├── tc
+│   │   ├── telinit -> ../bin/systemctl
+│   │   ├── tipc
+│   │   ├── tune2fs
+│   │   ├── unix_chkpwd
+│   │   ├── unix_update
+│   │   ├── update-ca-certificates
+│   │   ├── update-catalog
+│   │   ├── update-locale
+│   │   ├── update-mime
+│   │   ├── update-passwd
+│   │   ├── update-rc.d
+│   │   ├── update-shells
+│   │   ├── update-xmlcatalog
+│   │   ├── useradd
+│   │   ├── userdel
+│   │   ├── usermod
+│   │   ├── validlocale
+│   │   ├── vdpa
+│   │   ├── vigr -> vipw
+│   │   ├── vipw
+│   │   ├── visudo
+│   │   ├── wipefs
+│   │   ├── xtables-legacy-multi
+│   │   ├── xtables-monitor -> xtables-nft-multi
+│   │   ├── xtables-nft-multi
+│   │   ├── zic
+│   │   └── zramctl
+│   ├── share
+│   │   ├── PackageKit
+│   │   ├── X11
+│   │   ├── aclocal
+│   │   ├── aclocal-1.16
+│   │   ├── applications
+│   │   ├── apport
+│   │   ├── autoconf
+│   │   ├── automake-1.16
+│   │   ├── awk
+│   │   ├── base-files
+│   │   ├── base-passwd
+│   │   ├── bash-completion
+│   │   ├── binfmts
+│   │   ├── bison
+│   │   ├── bug
+│   │   ├── build-essential
+│   │   ├── ca-certificates
+│   │   ├── cmake
+│   │   ├── cmake-3.28
+│   │   ├── common-licenses
+│   │   ├── dbus-1
+│   │   ├── debconf
+│   │   ├── debhelper
+│   │   ├── debianutils
+│   │   ├── dict
+│   │   ├── distro-info
+│   │   ├── doc
+│   │   ├── doc-base
+│   │   ├── dot.bashrc
+│   │   ├── dot.profile
+│   │   ├── dot.profile.md5sums
+│   │   ├── dotnet
+│   │   ├── dpkg
+│   │   ├── emacs
+│   │   ├── file
+│   │   ├── fish
+│   │   ├── fontconfig
+│   │   ├── fonts
+│   │   ├── gcc
+│   │   ├── gdb
+│   │   ├── gettext
+│   │   ├── gettext-0.21
+│   │   ├── gir-1.0
+│   │   ├── git-core
+│   │   ├── gitweb
+│   │   ├── glib-2.0
+│   │   ├── gnupg
+│   │   ├── groff
+│   │   ├── i18n
+│   │   ├── icons
+│   │   ├── icu
+│   │   ├── info
+│   │   ├── info.dir
+│   │   ├── iptables
+│   │   ├── iso-codes
+│   │   ├── java
+│   │   ├── javascript
+│   │   ├── keyrings
+│   │   ├── libc-bin
+│   │   ├── libdebuginfod-common
+│   │   ├── libgcrypt20
+│   │   ├── libthai
+│   │   ├── libtool
+│   │   ├── lintian
+│   │   ├── locale
+│   │   ├── locales
+│   │   ├── lto-disabled-list
+│   │   ├── man
+│   │   ├── man-db
+│   │   ├── maven-repo
+│   │   ├── menu
+│   │   ├── metainfo
+│   │   ├── misc
+│   │   ├── moby-engine
+│   │   ├── motd
+│   │   ├── mysql-common
+│   │   ├── nano
+│   │   ├── networks
+│   │   ├── openssh
+│   │   ├── pam
+│   │   ├── pam-configs
+│   │   ├── perl
+│   │   ├── perl5
+│   │   ├── pixmaps
+│   │   ├── pkgconfig
+│   │   ├── polkit-1
+│   │   ├── profile
+│   │   ├── profile.md5sums
+│   │   ├── python-apt
+│   │   ├── python3
+│   │   ├── re2c
+│   │   ├── readline
+│   │   ├── rsync
+│   │   ├── sensible-utils
+│   │   ├── sgml
+│   │   ├── sgml-base
+│   │   ├── source-highlight
+│   │   ├── staff-group-for-usr-local
+│   │   ├── swig3.0
+│   │   ├── systemd
+│   │   ├── tabset
+│   │   ├── tcltk
+│   │   ├── terminfo
+│   │   ├── ucf
+│   │   ├── util-linux
+│   │   ├── vala
+│   │   ├── vim
+│   │   ├── xml
+│   │   ├── xml-core
+│   │   ├── yarn
+│   │   ├── zoneinfo
+│   │   └── zsh
+│   └── src
+│       └── python3.12
+├── var
+│   ├── backups
+│   ├── cache
+│   │   ├── PackageKit
+│   │   ├── adduser
+│   │   ├── apt
+│   │   ├── debconf
+│   │   ├── fontconfig
+│   │   ├── ldconfig
+│   │   ├── man
+│   │   └── private
+│   ├── lib
+│   │   ├── PackageKit
+│   │   ├── apt
+│   │   ├── dbus
+│   │   ├── docker
+│   │   ├── dpkg
+│   │   ├── git
+│   │   ├── man-db
+│   │   ├── misc
+│   │   ├── pam
+│   │   ├── polkit-1
+│   │   ├── private
+│   │   ├── python
+│   │   ├── sgml-base
+│   │   ├── shells.state
+│   │   ├── sudo
+│   │   ├── systemd
+│   │   ├── ucf
+│   │   ├── vim
+│   │   └── xml-core
+│   ├── local
+│   ├── lock -> /run/lock
+│   ├── log
+│   │   ├── README -> ../../usr/share/doc/systemd/README.logs
+│   │   ├── alternatives.log
+│   │   ├── apt
+│   │   ├── bootstrap.log
+│   │   ├── btmp
+│   │   ├── dpkg.log
+│   │   ├── faillog
+│   │   ├── fontconfig.log
+│   │   ├── journal
+│   │   ├── lastlog
+│   │   ├── private
+│   │   └── wtmp
+│   ├── mail
+│   ├── opt
+│   ├── run -> /run
+│   ├── spool
+│   │   └── mail -> ../mail
+│   ├── tmp
+│   └── vscode-remote
+├── vscode
+│   ├── bin
+│   │   └── linux-x64
+│   ├── extensionsCache
+│   │   ├── dbaeumer.vscode-eslint-3.0.17.vsix
+│   │   ├── eamodio.gitlens-2025.8.1905
+│   │   ├── eamodio.gitlens-2025.8.1905.vsix
+│   │   ├── esbenp.prettier-vscode-11.0.0
+│   │   ├── esbenp.prettier-vscode-11.0.0.vsix
+│   │   ├── formulahendry.code-runner-0.12.2
+│   │   ├── formulahendry.code-runner-0.12.2.vsix
+│   │   ├── github.codespaces-1.17.3
+│   │   ├── github.codespaces-1.17.3.vsix
+│   │   ├── github.copilot-1.357.1739
+│   │   ├── github.copilot-1.357.1739.vsix
+│   │   ├── github.github-vscode-theme-6.3.5.vsix
+│   │   ├── github.vscode-pull-request-github-0.117.2025081904
+│   │   ├── github.vscode-pull-request-github-0.117.2025081904.vsix
+│   │   ├── ms-azuretools.vscode-docker-2.0.0.vsix
+│   │   ├── ms-dotnettools.csharp-2.89.19
+│   │   ├── ms-dotnettools.csharp-2.89.19.vsix
+│   │   ├── ms-python.python-2025.13.2025081501.vsix
+│   │   ├── ms-toolsai.jupyter-2025.8.2025081901
+│   │   ├── ms-toolsai.jupyter-2025.8.2025081901.vsix
+│   │   ├── ms-vscode-remote.remote-wsl-0.104.1
+│   │   ├── ms-vscode-remote.remote-wsl-0.104.1.vsix
+│   │   ├── ms-vscode.cpptools-1.26.3-linux-x64
+│   │   ├── ms-vscode.cpptools-1.27.0
+│   │   ├── ms-vscode.cpptools-1.27.0.vsix
+│   │   ├── pkief.material-icon-theme-5.26.0
+│   │   ├── pkief.material-icon-theme-5.26.0.vsix
+│   │   ├── redhat.java-1.45.2025081408
+│   │   ├── redhat.java-1.45.2025081408.vsix
+│   │   ├── ritwickdey.liveserver-5.7.9
+│   │   ├── ritwickdey.liveserver-5.7.9.vsix
+│   │   ├── visualstudioexptteam.vscodeintellicode-1.3.2
+│   │   ├── visualstudioexptteam.vscodeintellicode-1.3.2.vsix
+│   │   ├── vscjava.vscode-java-debug-0.58.2025081407
+│   │   ├── vscjava.vscode-java-debug-0.58.2025081407.vsix
+│   │   ├── vscjava.vscode-java-dependency-0.24.2025081501
+│   │   ├── vscjava.vscode-java-dependency-0.24.2025081501.vsix
+│   │   ├── vscjava.vscode-java-pack-0.29.2025081500
+│   │   ├── vscjava.vscode-java-pack-0.29.2025081500.vsix
+│   │   ├── vscjava.vscode-java-test-0.43.2025040304
+│   │   ├── vscjava.vscode-java-test-0.43.2025040304.vsix
+│   │   ├── vscjava.vscode-maven-0.44.2024072906
+│   │   ├── vscjava.vscode-maven-0.44.2024072906.vsix
+│   │   ├── vscode-icons-team.vscode-icons-12.14.0
+│   │   └── vscode-icons-team.vscode-icons-12.14.0.vsix
+│   └── serverCache
+│       ├── 09401e712d4ffa5e497787978fe90c1557a0092b
+│       ├── 0ab18bd00955d2a3d69eb66d8eea982b76a53780
+│       ├── 18e3a1ec544e6907be1e944a94c496e302073435
+│       ├── 258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3
+│       ├── 2901c5ac6db8a986a5666c3af51ff804d05af0d4
+│       ├── 308b0746d15cdcfc6ee123c13fa902495edec2d5
+│       ├── 360a4e4fd251bfce169a4ddf857c7d25d1ad40da
+│       ├── 3b5110391dffc18e9983d33d6340c5c8e642f3a8
+│       ├── 488a1f239235055e34e673291fb8d8c810886f81
+│       ├── 57235e35e5be1ea9db32da9b57862c9ea1880a7f
+│       ├── 5d24d0fea3ffc65b824989dda916714a46ca97a7
+│       ├── 7adae6a56e34cb64d08899664b814cf620465925
+│       ├── 95db854cd8dd72aeea01ae3ca2b10a3323435c00
+│       ├── 97bc9a439c022a88fba7be68f67e068361f6c467
+│       ├── a61e381bfa71c241738e48f2fc8b01eade94c91d
+│       ├── c306e94f98122556ca081f527b466015e1bc37b0
+│       ├── cb0c47c0cfaad0757385834bd89d410c78a856c0
+│       ├── d3c3cf8f5025d9565eff4aa2545431adebb1aa83
+│       ├── dfaf44141ea9deb3b4096f7cd6d24e00c147a4b1
+│       └── e3550cfac4b63ca4eafca7b601f0d2885817fd1f
+└── workspaces
+    ├── aphroditecho
+    │   ├── ARCHITECTURE.md
+    │   ├── CMakeCache.txt
+    │   ├── CMakeFiles
+    │   ├── CMakeLists.txt
+    │   ├── CODE_OF_CONDUCT.md
+    │   ├── CONTRIBUTING.md
+    │   ├── COPILOT_WORKSHOP.md
+    │   ├── DEEP_TREE_ECHO_ARCHITECTURE.md
+    │   ├── DEEP_TREE_ECHO_ROADMAP.md
+    │   ├── DEPLOYMENT.md
+    │   ├── Dockerfile
+    │   ├── Dockerfile.cpu
+    │   ├── Dockerfile.neuron
+    │   ├── Dockerfile.openvino
+    │   ├── Dockerfile.ppc64le
+    │   ├── Dockerfile.rocm
+    │   ├── Dockerfile.tpu
+    │   ├── Dockerfile.xpu
+    │   ├── ECHO_MIGRATION_STATUS.md
+    │   ├── ECHO_SYSTEMS_ARCHITECTURE.md
+    │   ├── ECHO_TECHNICAL_REFERENCES.md
+    │   ├── IMPLEMENTATION_SUMMARY.md
+    │   ├── LICENSE
+    │   ├── MANIFEST.in
+    │   ├── META_LEARNING_README.md
+    │   ├── README.md
+    │   ├── SimSun.ttf
+    │   ├── TECHNICAL_DOCUMENTATION_INDEX.md
+    │   ├── Untitled-1.sh
+    │   ├── aar_core
+    │   ├── amdpatch.sh
+    │   ├── aphrodite
+    │   ├── aphrodite-engine
+    │   ├── aphrodite_engine.egg-info
+    │   ├── assets
+    │   ├── build
+    │   ├── build_and_upload_docker.sh
+    │   ├── build_wheel.sh
+    │   ├── cmake
+    │   ├── config.yaml
+    │   ├── deep-tree-echo
+    │   ├── demo_deep_tree_echo_fusion.py
+    │   ├── demo_meta_learning.py
+    │   ├── docker
+    │   ├── docs
+    │   ├── echo-self
+    │   ├── echo.dash
+    │   ├── echo.dream
+    │   ├── echo.files
+    │   ├── echo.kern
+    │   ├── echo.rkwv
+    │   ├── echo.self
+    │   ├── echo_self
+    │   ├── env.py
+    │   ├── environment.yaml
+    │   ├── examples
+    │   ├── formatting.ps1
+    │   ├── formatting.sh
+    │   ├── install_windows.ps1
+    │   ├── kernels
+    │   ├── mod (2).zip
+    │   ├── mod (3).zip
+    │   ├── modproc
+    │   ├── mypy.ini
+    │   ├── oryx-build-commands.txt
+    │   ├── package.json
+    │   ├── patches
+    │   ├── pyproject.toml
+    │   ├── pytest.ini
+    │   ├── requirements
+    │   ├── requirements.txt
+    │   ├── runtime.sh
+    │   ├── scripts
+    │   ├── setup.py
+    │   ├── test_aphrodite_integration.py
+    │   ├── test_echo_self.py
+    │   ├── test_integration.py
+    │   ├── test_meta_learning.py
+    │   ├── tests
+    │   ├── tools
+    │   ├── update-runtime.sh
+    │   └── use_existing_torch.py
+    └── my-aphrodite-dev
+        ├── CMakeLists.txt
+        ├── CODE_OF_CONDUCT.md
+        ├── CONTRIBUTING.md
+        ├── Dockerfile
+        ├── Dockerfile.cpu
+        ├── Dockerfile.neuron
+        ├── Dockerfile.openvino
+        ├── Dockerfile.ppc64le
+        ├── Dockerfile.rocm
+        ├── Dockerfile.tpu
+        ├── Dockerfile.xpu
+        ├── LICENSE
+        ├── MANIFEST.in
+        ├── README.md
+        ├── SimSun.ttf
+        ├── amdpatch.sh
+        ├── aphrodite
+        ├── assets
+        ├── build_and_upload_docker.sh
+        ├── build_wheel.sh
+        ├── cmake
+        ├── config.yaml
+        ├── docker
+        ├── docs
+        ├── env.py
+        ├── environment.yaml
+        ├── examples
+        ├── formatting.ps1
+        ├── formatting.sh
+        ├── install_windows.ps1
+        ├── kernels
+        ├── mypy.ini
+        ├── patches
+        ├── pyproject.toml
+        ├── pytest.ini
+        ├── requirements
+        ├── runtime.sh
+        ├── setup.py
+        ├── tests
+        ├── tools
+        ├── update-runtime.sh
+        └── use_existing_torch.py
+
+1268 directories, 3727 files

@@ -1,0 +1,29 @@
+.
+├── bin -> usr/bin
+├── bin.usr-is-merged
+├── boot
+├── dev
+├── etc
+├── go
+├── home
+├── lib -> usr/lib
+├── lib.usr-is-merged
+├── lib32 -> usr/lib32
+├── lib64 -> usr/lib64
+├── media
+├── mnt
+├── opt
+├── proc
+├── root
+├── run
+├── sbin -> usr/sbin
+├── sbin.usr-is-merged
+├── srv
+├── sys
+├── tmp
+├── usr
+├── var
+├── vscode
+└── workspaces
+
+27 directories, 0 files
