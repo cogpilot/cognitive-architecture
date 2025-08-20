@@ -147,7 +147,7 @@ async def run_complete_demonstration():
 def save_demonstration_results(results: dict):
     """Save demonstration results to files"""
     
-    output_dir = Path("/workspaces/aphroditecho/modproc/copilot-custom/cognitive-ecology/demo_results")
+    output_dir = Path(__file__).parent / "demo_results"
     output_dir.mkdir(exist_ok=True)
     
     # Save summary
