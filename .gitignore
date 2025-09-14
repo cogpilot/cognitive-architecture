@@ -54,6 +54,13 @@ ENV/
 env.bak/
 venv.bak/
 
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
 # IDE
 .vscode/
 .idea/
@@ -81,3 +88,4 @@ Thumbs.db
 # Demo results (generated content)
 demo_results/
 
+node_modules/
